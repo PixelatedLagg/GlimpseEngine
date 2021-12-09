@@ -6,8 +6,51 @@ using System.Threading.Tasks;
 
 namespace HeadshotEngine
 {
+    internal interface BaseComponent {}
+    internal enum ObjectType
+    {
+        All,
+        Sprite,
+        Video,
+        Audio,
+        Canvas
+    }
     public class Object
     {
+        public Object(ObjectType type)
+        {
+            switch (type)
+            {
+                case ObjectType.All:
+                    break;
+                case ObjectType.Sprite:
+                    break;
+                case ObjectType.Video:
+                    break;
+                case ObjectType.Audio:
+                    break;
+                case ObjectType.Canvas:
+                    break;
+            }
+        }
+        public Object(BaseComponent component)
+        {
+            switch (component.GetType().FullName)
+            {
+                case "HeadshotEngine.Sprite":
+                    //sprite is main component
+                    break;
+                case "HeadshotEngine.Video":
+                    //video is main component
+                    break;
+                case "HeadshotEngine.Audio":
+                    //audio is main component
+                    break;
+                case "HeadshotEngine.Canvas":
+                    //canvas is main component
+                    break;
+            }
+        }
         /*private Sprite sprite = null;
         public string tag = null;
         public enum Components { Physics = 0, Collider = 1 }
