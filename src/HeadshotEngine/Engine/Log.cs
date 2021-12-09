@@ -9,11 +9,6 @@ namespace HeadshotEngine
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"{DateTime.Now.ToString("hh:mm:ss")} [MSG] - {msg} ");
         }
-        internal static void Info(string msg)
-        {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"{DateTime.Now.ToString("hh:mm:ss")} [INFO] - {msg} ");
-        }
         internal static void Warning(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;

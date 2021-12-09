@@ -17,10 +17,9 @@ namespace HeadshotEngine
         public float CameraAngle = 0f;
         public HeadshotEngine(Vector ScreenSize, string Title, Color Color)
         {
-            Log.Info("[HeadshotEngine] HeadShot Engine 1.0.0");
-            Log.Info("[HeadshotEngine] \u00a9 HeadShot Studios 2021");
             this.ScreenSize = ScreenSize;
             this.Title = Title;
+            Global.SetOS();
             BackgroundColor = Color;
             GameLoopThread = new Thread(GameLoop);
             GameLoopThread.Start();

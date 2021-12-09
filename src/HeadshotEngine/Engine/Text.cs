@@ -42,12 +42,10 @@
             _size = size;
             _type = typeof(Text);
             HeadshotEngine.Register(this);
-            Log.Info($"[Text]({tag}) - Has been registered!");
         }
         public void DestroySelf()
         {
             HeadshotEngine.Register(this);
-            Log.Info($"[Text]({tag}) - Has been unregistered!");
         }
     }
 }

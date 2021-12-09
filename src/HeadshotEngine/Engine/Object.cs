@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace HeadshotEngine
 {
     internal interface BaseComponent {}
+    internal enum Component
+    {
+        Collider
+    }
     internal enum ObjectType
     {
         All,
@@ -17,6 +21,8 @@ namespace HeadshotEngine
     }
     public class Object
     {
+        private BaseComponent baseComponent;
+        private List<Component> components;
         public Object(ObjectType type)
         {
             switch (type)
@@ -35,19 +41,34 @@ namespace HeadshotEngine
         }
         public Object(BaseComponent component)
         {
-            switch (component.GetType().FullName)
+            switch (component.GetType())
             {
-                case "HeadshotEngine.Sprite":
-                    //sprite is main component
+                case typeof(Sprite):
+                    baseComponent = component;
                     break;
-                case "HeadshotEngine.Video":
-                    //video is main component
-                    break;
-                case "HeadshotEngine.Audio":
-                    //audio is main component
-                    break;
-                case "HeadshotEngine.Canvas":
-                    //canvas is main component
+            }
+        }
+        public void AddComponent(Component component)
+        {
+            components.Add(component);
+        }
+        public void RemoveComponent(Component component)
+        {
+            components.Remove(component);
+        }
+        internal void Render()
+        {
+            foreach (Component component in components)
+            {
+                switch (component)
+                {
+                    case Component.Collider: //render collider
+                        break;
+                }
+            }
+            switch (baseComponent.GetType())
+            {
+                case typeof(Sprite): //render sprite
                     break;
             }
         }
