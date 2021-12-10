@@ -4,11 +4,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Editor.MainWindow"
-        Title="Editor">
-	Welcome to Avalonia!
-	<Button x:Name="CloseWindowButton"
-        Content="Close Window"
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center"
-        Padding="10,5"/>
+        Title="Headshot Engine v1">
+        <StackPanel>
+                <Button Content="not aids" Click="TestClick"/>
+        </StackPanel>
 </Window>
