@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" x:Class="Editor.MainWindow" Title="Headshot Engine v1">
+        <Window.Styles>
+                <Style Selector="MenuItem.item">
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="BorderBrush" Value="Black"/>
+                        <Setter Property="Background" Value="Gray"/>
+                        <Setter Property="BorderThickness" Value="1"/>
+                        <Setter Property="Margin" Value="0"/>
+                </Style>
+        </Window.Styles>
+        <DockPanel>
+                <Menu DockPanel.Dock="Top" Background="Gray" BorderBrush="Black" BorderThickness="1">
+                        <MenuItem Header="File">
+                                <MenuItem Header="Project" Classes="item">
+                                        <MenuItem Header="Open Project" Classes="item" Click="OpenProject"/>
+                                        <MenuItem Header="New Project" Classes="item" Click="NewProject"/>
+                                </MenuItem>
+                                <MenuItem Header="Exit" Classes="item" Click="Exit"/>
+                        </MenuItem>
+                        <MenuItem Header="Object">
+                                <MenuItem Header="New Object" Classes="item" Click="NewObject"/>
+                                <MenuItem Header="Remove Object" Classes="item" Click="RemoveObject"/>
+                        </MenuItem>
+                </Menu>
+                <Button Content="not aids" Click="TestClick"/>
+        </DockPanel>
+</Window>
