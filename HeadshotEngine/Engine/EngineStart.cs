@@ -7,6 +7,7 @@ using OpenTK;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
+using OpenTK.Graphics.OpenGL;
 
 namespace HeadshotEngine
 {
@@ -20,13 +21,21 @@ namespace HeadshotEngine
             window = new GameWindow(GameWindowSettings.Default, NativeWindowSettings.Default);
             window.Title = title;
             window.Size = new Vector2i((int)size.x, (int)size.y);
-            window.VSync = VSyncMode.On;
-            window.KeyUp += KeyUnpressed;
-            window.KeyDown += KeyPressed;
-            window.MouseDown += MouseClick;
+            
+            //window.VSync = VSyncMode.On;
+            //window.KeyUp += KeyUnpressed;
+            //window.KeyDown += KeyPressed;
+            //window.MouseDown += MouseClick;
             window.Run();
             Console.OutputEncoding = Encoding.UTF8;
             Console.Title = "Console";
+        }
+        private void Render()
+        {
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+            GL.MatrixMode(MatrixMode.Projection);
+            GL.LoadIdentity();
+            GL.Ortho(-1.0, 1.0, -1.0, 1.0, 0.0, 4.0);
         }
         public abstract void OnLoad();
         public abstract void OnUpdate();

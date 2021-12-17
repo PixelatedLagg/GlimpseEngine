@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace HeadshotEngine
 {
-    public interface BaseComponent {}
     public enum Component
     {
         Collider

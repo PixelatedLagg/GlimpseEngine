@@ -1,11 +1,11 @@
 namespace HeadshotEngine
 {
-    public struct Sprite : BaseComponent
+    public struct Shape : BaseComponent
     {
         private Vector transform;
-        private Vector size;
         internal string? tag;
-        public Sprite(float x, float y, float sizex, float sizey, string file, string? tag = null)
+        private ShapeType type;
+        public Shape(Vector transform, float length, string? tag = null)
         {
             if (tag != null)
             {
@@ -15,9 +15,8 @@ namespace HeadshotEngine
             {
                 this.tag = null;
             }
-            transform = new Vector(x, y);
-            size = new Vector(sizex, sizey);
-            tag = null;
+            this.transform = new Vector(transform.x, transform.y);
+            type = ShapeType.Square;
         }
         public void Render()
         {
