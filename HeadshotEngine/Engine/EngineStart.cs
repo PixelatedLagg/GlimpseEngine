@@ -12,13 +12,8 @@ namespace HeadshotEngine
 {
     public abstract class EngineStart
     {
-        private Vector ScreenSize = new Vector(0, 0);
-        private string? Title = null;
-        private Thread? GameLoopThread = null;
-        public Color? BackgroundColor = null;
         public static List<GameObject> AllObjects = new List<GameObject>();
         public Vector CameraPosition = Vector.Zero();
-        public float CameraAngle = 0f;
         private GameWindow window;
         public EngineStart(Vector size, string title)
         {
