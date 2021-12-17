@@ -41,11 +41,11 @@
             _tag = tag;
             _size = size;
             _type = typeof(Text);
-            HeadshotEngine.Register(this);
+            EngineStart.Register(this);
         }
         public void DestroySelf()
         {
-            HeadshotEngine.Register(this);
+            EngineStart.Register(this);
         }
     }
 }

@@ -4,12 +4,12 @@ namespace HeadshotEngine.Internal
     {
         internal string name;
         internal string password;
-        internal List<HeadshotEngine.Object> objects;
-        internal Project(string name, string password, HeadshotEngine.Object[] objects)
+        internal List<Object> objects;
+        internal Project(string name, string password, Object[] objects)
         {
             this.name = name;
             this.password = password;
-            this.objects = objects;
+            this.objects = objects.ToList();
         }
     }
 }

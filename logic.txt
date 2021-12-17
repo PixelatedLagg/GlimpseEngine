@@ -1,0 +1,10 @@
+if (obj.sprite.Position.X < sprite.Position.X + sprite.Scale.X &&
+                        obj.sprite.Position.X + obj.sprite.Scale.X > sprite.Position.X &&
+                        obj.sprite.Position.Y < sprite.Position.Y + sprite.Scale.Y &&
+                        obj.sprite.Position.Y + obj.sprite.Scale.Y > sprite.Position.Y &&
+                        obj != this)
+                    {
+                        OnTriggerStay?.Invoke(obj);
+                    }
+
+                    check if object is colliding

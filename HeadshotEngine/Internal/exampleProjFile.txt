@@ -1,28 +1,28 @@
 start hsproj
 objectName objectBaseComponent {
-    objectPosition
+    objectPosition;
     objectComponentName objectComponent {
-        objectComponentAttribute1
-        objectComponentAttribute2
-        objectComponentAttribute3
+        objectComponentAttribute1;
+        objectComponentAttribute2;
+        objectComponentAttribute3;
     }
     objectComponentName objectComponent {
-        objectComponentAttribute1
-        objectComponentAttribute2
-        objectComponentAttribute3
+        objectComponentAttribute1;
+        objectComponentAttribute2;
+        objectComponentAttribute3;
     }
 }
 objectName objectBaseComponent {
-    objectPosition
+    objectPosition;
     objectComponentName objectComponent {
-        objectComponentAttribute1
-        objectComponentAttribute2
-        objectComponentAttribute3
+        objectComponentAttribute1;
+        objectComponentAttribute2;
+        objectComponentAttribute3;
     }
     objectComponentName objectComponent {
-        objectComponentAttribute1
-        objectComponentAttribute2
-        objectComponentAttribute3
+        objectComponentAttribute1;
+        objectComponentAttribute2;
+        objectComponentAttribute3;
     }
 }
 end hsproj

@@ -3,7 +3,7 @@ namespace HeadshotEngine
     public struct Sprite : BaseComponent
     {
         private Transform transform;
-        internal string tag;
+        internal string? tag;
         public Sprite(float x, float y, float sizex, float sizey, float? rotation)
         {
             if (rotation == null)
@@ -12,7 +12,7 @@ namespace HeadshotEngine
             }
             else
             {
-                transform = new Transform(x, y, sizex, sizey, rotation);
+                transform = new Transform(x, y, sizex, sizey, (float)rotation);
             }
             tag = null;
         }
@@ -24,7 +24,7 @@ namespace HeadshotEngine
             }
             else
             {
-                transform = new Transform(x, y, sizex, sizey, rotation);
+                transform = new Transform(x, y, sizex, sizey, (float)rotation);
             }
             this.tag = tag;
         }

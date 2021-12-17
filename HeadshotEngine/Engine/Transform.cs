@@ -49,7 +49,7 @@ namespace HeadshotEngine
                         return TransformType.positionSize;
                     case 2:
                         return TransformType.positionRotation;
-                    case 3:
+                    default:
                         return TransformType.positionSizeRotation;
                 }
             }

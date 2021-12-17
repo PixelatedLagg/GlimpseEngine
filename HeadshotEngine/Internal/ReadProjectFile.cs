@@ -14,9 +14,9 @@ namespace HeadshotEngine.Internal
             }
             try
             {
-                List<HeadshotEngine.Object> list = new List<HeadshotEngine.Object>();
-                string name = null;
-                string password = null;
+                List<Object> list = new List<Object>();
+                string? name = null;
+                string? password = null;
                 foreach (string line in File.ReadLines(file))
                 {
                     if (name == null)
@@ -31,7 +31,7 @@ namespace HeadshotEngine.Internal
                     }
                     var output = line.Split(' ');
                 }   
-                Project project = new Project();
+                //Project project = new Project();
             }
             catch
             {
