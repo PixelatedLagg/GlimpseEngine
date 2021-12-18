@@ -18,11 +18,11 @@ namespace HeadshotEngine
         Audio,
         Canvas
     }
-    public class Object
+    public class GameObject
     {
         private BaseComponent baseComponent;
         private List<Component> components;
-        public Object(BaseComponent component)
+        public GameObject(BaseComponent component)
         {
             switch (component.GetType().FullName)
             {

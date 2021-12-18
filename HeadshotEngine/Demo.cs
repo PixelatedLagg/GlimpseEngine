@@ -3,11 +3,11 @@ using OpenTK.Windowing.Common;
 
 class Demo : EngineStart
 {
-    public Demo() : base(new Vector(100, 100), "aids") {}
+    public Demo() : base(new Vector(300, 300), "aids") {}
 
     public override void KeyPressed(KeyboardKeyEventArgs args)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("aids");
     }
 
     public override void KeyUnpressed(KeyboardKeyEventArgs args)
@@ -17,7 +17,7 @@ class Demo : EngineStart
 
     public override void MouseClick(MouseButtonEventArgs args)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("aids");
     }
 
     public override void OnClose()

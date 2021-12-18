@@ -1,6 +1,6 @@
 ﻿namespace HeadshotEngine
 {
-    public class Text : GameObject
+    public class Text
     {
         private Vector _position;
         public Vector position
@@ -40,12 +40,7 @@
             _text = text;
             _tag = tag;
             _size = size;
-            _type = typeof(Text);
-            EngineStart.Register(this);
         }
-        public void DestroySelf()
-        {
-            EngineStart.Register(this);
-        }
+        public void DestroySelf() {}
     }
 }

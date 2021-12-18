@@ -1,3 +1,6 @@
+using OpenTK;
+using OpenTK.Graphics.OpenGL;
+
 namespace HeadshotEngine
 {
     public struct Shape : BaseComponent
@@ -20,7 +23,12 @@ namespace HeadshotEngine
         }
         public void Render()
         {
-            //render
+            switch (type)
+            {
+                case ShapeType.Square:
+                    
+                    break;
+            }
         }
     }
 }
