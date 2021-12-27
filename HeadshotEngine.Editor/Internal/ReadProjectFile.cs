@@ -1,7 +1,8 @@
 using System.IO;
 using System.Collections.Generic;
+using HeadshotEngine;
 
-namespace HeadshotEngine.Internal
+namespace Editor
 {
     internal static class ReadProjectFile
     {
@@ -14,7 +15,7 @@ namespace HeadshotEngine.Internal
             }
             try
             {
-                List<Object> list = new List<Object>();
+                List<GameObject> list = new List<Object>();
                 string? name = null;
                 string? password = null;
                 foreach (string line in File.ReadLines(file))

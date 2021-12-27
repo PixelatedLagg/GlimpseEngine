@@ -11,7 +11,7 @@ using OpenTK.Graphics.OpenGL;
 
 namespace HeadshotEngine
 {
-    public class EngineStart
+    public abstract class EngineStart
     {
         public static List<GameObject> AllObjects = new List<GameObject>();
         public Vector CameraPosition = Vector.Zero();
@@ -40,34 +40,13 @@ namespace HeadshotEngine
                 obj.Render();
             }
         }
-        public virtual void OnLoad()
-        {
-
-        }
-        public virtual void OnUpdate()
-        {
-
-        }
-        public virtual void OnDraw()
-        {
-            
-        }
-        public virtual void OnClose()
-        {
-            
-        }
-        public virtual void KeyPressed(KeyboardKeyEventArgs args)
-        {
-            
-        }
-        public virtual void KeyUnpressed(KeyboardKeyEventArgs args)
-        {
-            
-        }
-        public virtual void MouseClick(MouseButtonEventArgs args)
-        {
-            
-        }
+        public abstract void OnLoad();
+        public abstract void OnUpdate();
+        public abstract void OnDraw();
+        public abstract void OnClose();
+        public abstract void KeyPressed(KeyboardKeyEventArgs args);
+        public abstract void KeyUnpressed(KeyboardKeyEventArgs args);
+        public abstract void MouseClick(MouseButtonEventArgs args);
         internal static void Register(GameObject obj)
         {
             AllObjects.Add(obj);
