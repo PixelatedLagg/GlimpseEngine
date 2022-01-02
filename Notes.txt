@@ -1,0 +1,7 @@
+for transform:
+
+0 = position
+
+1 = size
+
+2 = rotation

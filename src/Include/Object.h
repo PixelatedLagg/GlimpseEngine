@@ -1,9 +1,7 @@
 #ifndef OBJ_H
 #define OBJ_H
 
-#include <memory>
-#include "ComponentList.h"
-
+#include "BaseObject.h"
 
 namespace HeadshotEngine
 {
@@ -19,10 +17,7 @@ namespace HeadshotEngine
             Audio,
             Misc
         };
-        Object(Types type);
-        void* Delete();
-        void* AddComponent(ComponentList::List component);
-        void* DeleteComponent(ComponentList::List component);
+        Object(Types type, BaseObject obj);
     };
 }
 

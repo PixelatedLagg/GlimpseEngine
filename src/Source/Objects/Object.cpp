@@ -1,10 +1,11 @@
-#include <memory>
 #include "Object.h"
 #include "ComponentList.h"
+#include "BaseObject.h"
 
 namespace HeadshotEngine
 {
-    Object::Object(Types type)
+    BaseObject obj;
+    Object::Object(Types type, BaseObject obj)
     {
         switch (type)
         {
@@ -12,7 +13,7 @@ namespace HeadshotEngine
                 //position Vector2(x, y)
                 break;
             case Shape:
-                //shape
+                obj.Render();
                 break;
             case Image:
                 //image
@@ -27,18 +28,6 @@ namespace HeadshotEngine
                 //misc object
                 break;
         }
-    }
-    void* Object::Delete()
-    {
-        
-    }
-    void* Object::AddComponent(ComponentList::List component)
-    {
-        componentCount++;
-    }
-    void* Object::DeleteComponent(ComponentList::List component)
-    {
-        componentCount--;
     }
     int componentCount = 0;
     ComponentList::List components[0];
