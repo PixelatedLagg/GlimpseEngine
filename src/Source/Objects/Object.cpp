@@ -5,29 +5,30 @@
 namespace HeadshotEngine
 {
     BaseObject obj;
-    Object::Object(Types type, BaseObject obj)
+    Object::Object(int *type, BaseObject *obj, Transform *transform)
     {
-        switch (type)
+        switch (*type)
         {
-            case Position:
-                //position Vector2(x, y)
+            case 0: //vector2
+                obj->Render();
                 break;
-            case Shape:
-                obj.Render();
+            case 1: //shape
+                obj->Render();
                 break;
-            case Image:
-                //image
+            case 2: //text
+                obj->Render();
                 break;
-            case Text:
-                //image
+            case 3: //image
+                obj->Render();
                 break;
-            case Audio:
-                //audio
+            case 4: //audio
+                obj->Render();
                 break;
-            case Misc:
-                //misc object
+            case 5: //misc object
+                obj->Render();
                 break;
         }
+        Object::transform = *transform;
     }
     int componentCount = 0;
     ComponentList::List components[0];

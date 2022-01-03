@@ -2,22 +2,15 @@
 #define OBJ_H
 
 #include "BaseObject.h"
+#include "Transform.h"
 
 namespace HeadshotEngine
 {
     class Object
     {
         public:
-        enum Types 
-        { 
-            Position,
-            Shape,
-            Image,
-            Text,
-            Audio,
-            Misc
-        };
-        Object(Types type, BaseObject obj);
+        Transform transform;
+        Object(int *type, BaseObject *obj, Transform *transform);
     };
 }
 

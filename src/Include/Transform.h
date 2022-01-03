@@ -9,6 +9,7 @@ namespace HeadshotEngine
     {
         public:
         Transform(Vector2* pos, Vector2* size, Vector2* rot = Vector2::Zero());
+        Transform() = default;
         void* Delete();
         Vector2* Position();
         Vector2* Size();

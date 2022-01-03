@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "cstdlib": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "typeinfo": "cpp",
+        "memory": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}

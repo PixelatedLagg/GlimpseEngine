@@ -5,3 +5,18 @@ for transform:
 1 = size
 
 2 = rotation
+
+
+for object type
+
+0 = vector2
+
+1 = shape
+
+2 = text
+
+3 = image
+
+4 = audio
+
+5 = misc object

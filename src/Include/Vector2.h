@@ -13,6 +13,8 @@ namespace HeadshotEngine
         void* Delete();
         float* GetPosition();
         static Vector2* Zero();
+        float _x;
+        float _y;
     };
 }
 
