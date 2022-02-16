@@ -1,10 +1,14 @@
 using System.Threading;
 using System;
+using System.Collections.Generic;
 
 namespace HE
 {
     public class Game
     {
+        internal List<GObject> objects = new List<GObject>();
+        public Action? OnUpdate = null;
+        public Action? OnDraw = null;
         private Thread thread;
         private CancellationToken token;
         public Game()
@@ -14,19 +18,11 @@ namespace HE
         }
         private void Loop()
         {
-            OnUpdate();
+            OnUpdate?.Invoke();
             while (thread.IsAlive)
             {
-                OnDraw();
+                OnDraw?.Invoke();
             }
-        }
-        private void OnUpdate()
-        {
-
-        }
-        private void OnDraw()
-        {
-
         }
         public void Stop()
         {

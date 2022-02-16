@@ -7,8 +7,10 @@ namespace HE
     public sealed class Map
     {
         Mesh mesh;
-        public Map(string file)
+        EnemyManager enemyManager;
+        public Map(string file, params Enemy[] enemies)
         {
+            enemyManager = new EnemyManager(enemies);
             mesh = new Mesh(file);
         }
     }

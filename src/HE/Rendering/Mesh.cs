@@ -12,7 +12,7 @@ namespace HE
             {
                 while (!sr.EndOfStream)
                 {
-                    StringBuilder line = new StringBuilder(sr.ReadLine() ?? "");
+                    StringBuilder line = new StringBuilder(sr.ReadLine() ?? "  ");
                     switch ($"{line[0]}{line[1]}")
                     {
                         case "v ":
