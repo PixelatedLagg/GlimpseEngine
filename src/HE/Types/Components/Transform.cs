@@ -32,14 +32,5 @@ namespace HE
             _scale = scale;
             _rotation = rotation;
         }
-        public static bool IsColliding(Transform t1, Transform t2)
-        {
-            return true;
-            /*
-            return (a.minX <= b.maxX && a.maxX >= b.minX) &&
-            (a.minY <= b.maxY && a.maxY >= b.minY) &&
-            (a.minZ <= b.maxZ && a.maxZ >= b.minZ);
-            */
-        }
     }
 }
