@@ -26,5 +26,10 @@ namespace HE
             collider = new Collider(Transform, trigger);
             return this;
         }
+        public bool IsColliding(GObject obj)
+        {
+            Collider c1 = collider, c2 = obj.collider;
+            return (c1.xbound.x <= c2.xbound.y && c1.xbound.y >= c2.xbound.x) && (c1.ybound.x <= c2.ybound.y && c1.ybound.y >= c2.ybound.x) && (c1.zbound.x <= c2.zbound.y && c1.zbound.y >= c2.zbound.x);
+        }
     }
 }

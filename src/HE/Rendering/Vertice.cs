@@ -22,5 +22,13 @@ namespace HE
         {
             return new Vertice(0, 0, 0);
         }
+        public static implicit operator string(Vertice v)
+        {
+            return $"x: {v.x} y: {v.y} z: {v.z}";
+        }
+        public override string ToString()
+        {
+            return $"x: {x} y: {y} z: {z}";
+        }
     }
 }
