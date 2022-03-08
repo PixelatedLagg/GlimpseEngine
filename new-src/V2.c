@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 
-V2 *NewV2(float *x, float *y)
+V2 *NewV2(const float x, const float y)
 {
     V2 *v2 = malloc(sizeof(V2));
     if (!v2)

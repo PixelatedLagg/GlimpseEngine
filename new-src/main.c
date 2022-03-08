@@ -9,11 +9,11 @@ int main()
     GameObject *b = NewGObject("t", NewV3(0.0F, 0.0F, 0.0F), NewV3(0.0F, 0.0F, 0.0F), NewV3(0.0F, 0.0F, 0.0F));
     if (IsColliding(o, b))
     {
-        printf("aids\n");
+        printf("collided\n");
     }
     else
     {
-        printf("hepatitis\n");
+        printf("did not collide\n");
     }
     return 0;
 }

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "v3.h": "c",
+        "gameobject.h": "c",
+        "collider.h": "c"
+    }
+}

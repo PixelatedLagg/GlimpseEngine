@@ -5,17 +5,14 @@ namespace HE
         public readonly bool Trigger;
         public Vertice[] vertices = new Vertice[8];
         //0 BTL, 1 BTR, 2 BBL, 3 BBR, 4 TTL, 5 TTR, 6 TBL, 7 TBR
-        public Vertice Scale;
 
         public Pair xbound, ybound, zbound;
 
-        public Vertice[] verticeBounds = new Vertice[6];
         //0 lx, 1 ly, 2 lz, 3 hx, 4 hy, 5 hz
         internal Collider(Transform transform, bool trigger)
         {
             Trigger = trigger;
             float x = (transform.Scale.x / 2) + transform.Position.x, y = (transform.Scale.y / 2) + transform.Position.y, z = (transform.Scale.z / 2) + transform.Position.z;
-            Scale = transform.Scale;
             vertices[0] = new Vertice(x - transform.Scale.x, y - transform.Scale.y, z);
             vertices[1] = new Vertice(x, y - transform.Scale.y, z);
             vertices[2] = new Vertice(x - transform.Scale.x, y - transform.Scale.y, z - transform.Scale.z);
