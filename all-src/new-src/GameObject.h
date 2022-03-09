@@ -16,14 +16,14 @@ typedef struct
 typedef struct
 {
     char *name;
-    V3 *position, *scale, *rotation;
-    Collider *collider;
+    V3 position, scale, rotation;
+    Collider collider;
 } GameObject;
 
-GameObject *NewGObject(char *name, V3 *position, V3 *scale, V3 *rotation);
+GameObject NewGObject(char name[], V3 position, V3 scale, V3 rotation);
 
-Collider *NewColl(GameObject *obj);
+Collider NewColl(GameObject obj);
 
-bool *IsColliding(GameObject *obj1, GameObject *obj2);
+bool IsColliding(GameObject obj1, GameObject obj2);
 
 #endif

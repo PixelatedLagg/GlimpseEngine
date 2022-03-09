@@ -8,6 +8,6 @@ typedef struct
     float z;
 } V3;
 
-V3 *NewV3(const float x, const float y, const float z);
+V3 NewV3(const float x, const float y, const float z);
 
 #endif

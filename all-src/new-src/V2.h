@@ -7,6 +7,6 @@ typedef struct
     float y;
 } V2;
 
-V2 *NewV2(const float x, const float y);
+V2 NewV2(const float x, const float y);
 
 #endif
