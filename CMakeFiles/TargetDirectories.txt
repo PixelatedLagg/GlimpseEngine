@@ -1,0 +1,3 @@
+C:/Users/pixil/Desktop/GlimpseGithub/CMakeFiles/glimpse.dir
+C:/Users/pixil/Desktop/GlimpseGithub/CMakeFiles/edit_cache.dir
+C:/Users/pixil/Desktop/GlimpseGithub/CMakeFiles/rebuild_cache.dir
