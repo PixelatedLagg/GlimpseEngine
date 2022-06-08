@@ -137,4 +137,7 @@ CMakeFiles/glimpse.dir/src/gobj.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/comp.hpp
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/comp.hpp \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/comptype.hpp \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/coll.hpp \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp

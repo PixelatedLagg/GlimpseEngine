@@ -7,7 +7,7 @@
 class game
 {
     public:
-        void Start(int fps);
+        void Start();
         void AddGobj(gobj* gobj);
     private:
         void Loop();

@@ -128,6 +128,30 @@ glimpse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/build
 .PHONY : glimpse/fast
 
+src/coll.obj: src/coll.cpp.obj
+.PHONY : src/coll.obj
+
+# target to build an object file
+src/coll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.obj
+.PHONY : src/coll.cpp.obj
+
+src/coll.i: src/coll.cpp.i
+.PHONY : src/coll.i
+
+# target to preprocess a source file
+src/coll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.i
+.PHONY : src/coll.cpp.i
+
+src/coll.s: src/coll.cpp.s
+.PHONY : src/coll.s
+
+# target to generate assembly for a file
+src/coll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.s
+.PHONY : src/coll.cpp.s
+
 src/comp.obj: src/comp.cpp.obj
 .PHONY : src/comp.obj
 
@@ -151,6 +175,30 @@ src/comp.s: src/comp.cpp.s
 src/comp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/comp.cpp.s
 .PHONY : src/comp.cpp.s
+
+src/game.obj: src/game.cpp.obj
+.PHONY : src/game.obj
+
+# target to build an object file
+src/game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.obj
+.PHONY : src/game.cpp.obj
+
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
 
 src/gobj.obj: src/gobj.cpp.obj
 .PHONY : src/gobj.obj
@@ -200,6 +248,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/physics.obj: src/physics.cpp.obj
+.PHONY : src/physics.obj
+
+# target to build an object file
+src/physics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.obj
+.PHONY : src/physics.cpp.obj
+
+src/physics.i: src/physics.cpp.i
+.PHONY : src/physics.i
+
+# target to preprocess a source file
+src/physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.i
+.PHONY : src/physics.cpp.i
+
+src/physics.s: src/physics.cpp.s
+.PHONY : src/physics.s
+
+# target to generate assembly for a file
+src/physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.s
+.PHONY : src/physics.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,15 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glimpse
+	@echo ... src/coll.obj
+	@echo ... src/coll.i
+	@echo ... src/coll.s
 	@echo ... src/comp.obj
 	@echo ... src/comp.i
 	@echo ... src/comp.s
+	@echo ... src/game.obj
+	@echo ... src/game.i
+	@echo ... src/game.s
 	@echo ... src/gobj.obj
 	@echo ... src/gobj.i
 	@echo ... src/gobj.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/physics.obj
+	@echo ... src/physics.i
+	@echo ... src/physics.s
 .PHONY : help
 
 

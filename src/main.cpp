@@ -1,13 +1,13 @@
 #include <iostream>
 
 #include "include/gobj.hpp"
+#include "include/game.hpp"
 
 using namespace std;
 
 int main()
 {
-   cout << "eek1!" << endl;
-   gobj o("aids");
-   cout << o.Tag << endl;
+   game g;
+   g.Start();
    return 0;
 }
