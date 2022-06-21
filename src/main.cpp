@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
    game g;
-   g.Start();
+   g.Start("aids!");
+   g.Pause(30000);
    return 0;
 }

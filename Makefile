@@ -128,6 +128,30 @@ glimpse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/build
 .PHONY : glimpse/fast
 
+src/Rect.obj: src/Rect.cpp.obj
+.PHONY : src/Rect.obj
+
+# target to build an object file
+src/Rect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.obj
+.PHONY : src/Rect.cpp.obj
+
+src/Rect.i: src/Rect.cpp.i
+.PHONY : src/Rect.i
+
+# target to preprocess a source file
+src/Rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.i
+.PHONY : src/Rect.cpp.i
+
+src/Rect.s: src/Rect.cpp.s
+.PHONY : src/Rect.s
+
+# target to generate assembly for a file
+src/Rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.s
+.PHONY : src/Rect.cpp.s
+
 src/coll.obj: src/coll.cpp.obj
 .PHONY : src/coll.obj
 
@@ -272,6 +296,30 @@ src/physics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.s
 .PHONY : src/physics.cpp.s
 
+src/v2.obj: src/v2.cpp.obj
+.PHONY : src/v2.obj
+
+# target to build an object file
+src/v2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.obj
+.PHONY : src/v2.cpp.obj
+
+src/v2.i: src/v2.cpp.i
+.PHONY : src/v2.i
+
+# target to preprocess a source file
+src/v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.i
+.PHONY : src/v2.cpp.i
+
+src/v2.s: src/v2.cpp.s
+.PHONY : src/v2.s
+
+# target to generate assembly for a file
+src/v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.s
+.PHONY : src/v2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -281,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glimpse
+	@echo ... src/Rect.obj
+	@echo ... src/Rect.i
+	@echo ... src/Rect.s
 	@echo ... src/coll.obj
 	@echo ... src/coll.i
 	@echo ... src/coll.s
@@ -299,6 +350,9 @@ help:
 	@echo ... src/physics.obj
 	@echo ... src/physics.i
 	@echo ... src/physics.s
+	@echo ... src/v2.obj
+	@echo ... src/v2.i
+	@echo ... src/v2.s
 .PHONY : help
 
 

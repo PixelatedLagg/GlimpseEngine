@@ -1,12 +1,24 @@
-#include "game.hpp"
-#include "include\SDL2-2.0.22\i686-w64-mingw32\include\SDL2\SDL.h"
+#include <iostream>
 
-void game::Start()
+#include "include/game.hpp"
+#include "include/SDL2/SDL.h"
+
+void game::Start(char* title)
 {
     SDL_Init(SDL_INIT_VIDEO);
-    SDL_Window * screen = SDL_CreateWindow("My SDL Empty Window", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
-    SDL_Delay(30000);
+    SDL_Window* window = SDL_CreateWindow(title, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
+    if(!window)
+    {
+        std::cout << "Window could not be created!\nSDL Error: " << SDL_GetError() << std::endl;
+    }
+}
+void game::Stop()
+{
     SDL_Quit();
+}
+void game::Pause(int ms)
+{
+    SDL_Delay(ms);
 }
 void game::AddGobj(gobj* gobj)
 {
