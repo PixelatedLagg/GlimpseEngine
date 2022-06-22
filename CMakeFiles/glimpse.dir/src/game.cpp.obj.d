@@ -142,6 +142,7 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/comp.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/comptype.hpp \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/visual.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_main.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_stdinc.h \
@@ -285,4 +286,6 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_timer.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_version.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_locale.h \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_misc.h
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_misc.h \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL.h

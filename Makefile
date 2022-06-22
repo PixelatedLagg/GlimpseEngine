@@ -128,29 +128,29 @@ glimpse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/build
 .PHONY : glimpse/fast
 
-src/Rect.obj: src/Rect.cpp.obj
-.PHONY : src/Rect.obj
+src/app.obj: src/app.cpp.obj
+.PHONY : src/app.obj
 
 # target to build an object file
-src/Rect.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.obj
-.PHONY : src/Rect.cpp.obj
+src/app.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.obj
+.PHONY : src/app.cpp.obj
 
-src/Rect.i: src/Rect.cpp.i
-.PHONY : src/Rect.i
+src/app.i: src/app.cpp.i
+.PHONY : src/app.i
 
 # target to preprocess a source file
-src/Rect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.i
-.PHONY : src/Rect.cpp.i
+src/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.i
+.PHONY : src/app.cpp.i
 
-src/Rect.s: src/Rect.cpp.s
-.PHONY : src/Rect.s
+src/app.s: src/app.cpp.s
+.PHONY : src/app.s
 
 # target to generate assembly for a file
-src/Rect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/Rect.cpp.s
-.PHONY : src/Rect.cpp.s
+src/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.s
+.PHONY : src/app.cpp.s
 
 src/coll.obj: src/coll.cpp.obj
 .PHONY : src/coll.obj
@@ -176,6 +176,30 @@ src/coll.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.s
 .PHONY : src/coll.cpp.s
 
+src/color.obj: src/color.cpp.obj
+.PHONY : src/color.obj
+
+# target to build an object file
+src/color.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.obj
+.PHONY : src/color.cpp.obj
+
+src/color.i: src/color.cpp.i
+.PHONY : src/color.i
+
+# target to preprocess a source file
+src/color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.i
+.PHONY : src/color.cpp.i
+
+src/color.s: src/color.cpp.s
+.PHONY : src/color.s
+
+# target to generate assembly for a file
+src/color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.s
+.PHONY : src/color.cpp.s
+
 src/comp.obj: src/comp.cpp.obj
 .PHONY : src/comp.obj
 
@@ -199,30 +223,6 @@ src/comp.s: src/comp.cpp.s
 src/comp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/comp.cpp.s
 .PHONY : src/comp.cpp.s
-
-src/game.obj: src/game.cpp.obj
-.PHONY : src/game.obj
-
-# target to build an object file
-src/game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.obj
-.PHONY : src/game.cpp.obj
-
-src/game.i: src/game.cpp.i
-.PHONY : src/game.i
-
-# target to preprocess a source file
-src/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.i
-.PHONY : src/game.cpp.i
-
-src/game.s: src/game.cpp.s
-.PHONY : src/game.s
-
-# target to generate assembly for a file
-src/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.s
-.PHONY : src/game.cpp.s
 
 src/gobj.obj: src/gobj.cpp.obj
 .PHONY : src/gobj.obj
@@ -272,30 +272,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/physics.obj: src/physics.cpp.obj
-.PHONY : src/physics.obj
-
-# target to build an object file
-src/physics.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.obj
-.PHONY : src/physics.cpp.obj
-
-src/physics.i: src/physics.cpp.i
-.PHONY : src/physics.i
-
-# target to preprocess a source file
-src/physics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.i
-.PHONY : src/physics.cpp.i
-
-src/physics.s: src/physics.cpp.s
-.PHONY : src/physics.s
-
-# target to generate assembly for a file
-src/physics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/physics.cpp.s
-.PHONY : src/physics.cpp.s
-
 src/v2.obj: src/v2.cpp.obj
 .PHONY : src/v2.obj
 
@@ -320,6 +296,30 @@ src/v2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.s
 .PHONY : src/v2.cpp.s
 
+src/visual.obj: src/visual.cpp.obj
+.PHONY : src/visual.obj
+
+# target to build an object file
+src/visual.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.obj
+.PHONY : src/visual.cpp.obj
+
+src/visual.i: src/visual.cpp.i
+.PHONY : src/visual.i
+
+# target to preprocess a source file
+src/visual.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.i
+.PHONY : src/visual.cpp.i
+
+src/visual.s: src/visual.cpp.s
+.PHONY : src/visual.s
+
+# target to generate assembly for a file
+src/visual.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.s
+.PHONY : src/visual.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -329,30 +329,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glimpse
-	@echo ... src/Rect.obj
-	@echo ... src/Rect.i
-	@echo ... src/Rect.s
+	@echo ... src/app.obj
+	@echo ... src/app.i
+	@echo ... src/app.s
 	@echo ... src/coll.obj
 	@echo ... src/coll.i
 	@echo ... src/coll.s
+	@echo ... src/color.obj
+	@echo ... src/color.i
+	@echo ... src/color.s
 	@echo ... src/comp.obj
 	@echo ... src/comp.i
 	@echo ... src/comp.s
-	@echo ... src/game.obj
-	@echo ... src/game.i
-	@echo ... src/game.s
 	@echo ... src/gobj.obj
 	@echo ... src/gobj.i
 	@echo ... src/gobj.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/physics.obj
-	@echo ... src/physics.i
-	@echo ... src/physics.s
 	@echo ... src/v2.obj
 	@echo ... src/v2.i
 	@echo ... src/v2.s
+	@echo ... src/visual.obj
+	@echo ... src/visual.i
+	@echo ... src/visual.s
 .PHONY : help
 
 

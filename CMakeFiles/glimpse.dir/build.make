@@ -68,20 +68,20 @@ include CMakeFiles/glimpse.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/glimpse.dir/flags.make
 
-CMakeFiles/glimpse.dir/src/Rect.cpp.obj: CMakeFiles/glimpse.dir/flags.make
-CMakeFiles/glimpse.dir/src/Rect.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
-CMakeFiles/glimpse.dir/src/Rect.cpp.obj: src/Rect.cpp
-CMakeFiles/glimpse.dir/src/Rect.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glimpse.dir/src/Rect.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/Rect.cpp.obj -MF CMakeFiles\glimpse.dir\src\Rect.cpp.obj.d -o CMakeFiles\glimpse.dir\src\Rect.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\Rect.cpp
+CMakeFiles/glimpse.dir/src/app.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/app.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/app.cpp.obj: src/app.cpp
+CMakeFiles/glimpse.dir/src/app.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glimpse.dir/src/app.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/app.cpp.obj -MF CMakeFiles\glimpse.dir\src\app.cpp.obj.d -o CMakeFiles\glimpse.dir\src\app.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp
 
-CMakeFiles/glimpse.dir/src/Rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/Rect.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\Rect.cpp > CMakeFiles\glimpse.dir\src\Rect.cpp.i
+CMakeFiles/glimpse.dir/src/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/app.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp > CMakeFiles\glimpse.dir\src\app.cpp.i
 
-CMakeFiles/glimpse.dir/src/Rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/Rect.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\Rect.cpp -o CMakeFiles\glimpse.dir\src\Rect.cpp.s
+CMakeFiles/glimpse.dir/src/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/app.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp -o CMakeFiles\glimpse.dir\src\app.cpp.s
 
 CMakeFiles/glimpse.dir/src/coll.cpp.obj: CMakeFiles/glimpse.dir/flags.make
 CMakeFiles/glimpse.dir/src/coll.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
@@ -98,11 +98,26 @@ CMakeFiles/glimpse.dir/src/coll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/coll.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\coll.cpp -o CMakeFiles\glimpse.dir\src\coll.cpp.s
 
+CMakeFiles/glimpse.dir/src/color.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/color.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/color.cpp.obj: src/color.cpp
+CMakeFiles/glimpse.dir/src/color.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/glimpse.dir/src/color.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/color.cpp.obj -MF CMakeFiles\glimpse.dir\src\color.cpp.obj.d -o CMakeFiles\glimpse.dir\src\color.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp
+
+CMakeFiles/glimpse.dir/src/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/color.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp > CMakeFiles\glimpse.dir\src\color.cpp.i
+
+CMakeFiles/glimpse.dir/src/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/color.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp -o CMakeFiles\glimpse.dir\src\color.cpp.s
+
 CMakeFiles/glimpse.dir/src/comp.cpp.obj: CMakeFiles/glimpse.dir/flags.make
 CMakeFiles/glimpse.dir/src/comp.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
 CMakeFiles/glimpse.dir/src/comp.cpp.obj: src/comp.cpp
 CMakeFiles/glimpse.dir/src/comp.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/glimpse.dir/src/comp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/glimpse.dir/src/comp.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/comp.cpp.obj -MF CMakeFiles\glimpse.dir\src\comp.cpp.obj.d -o CMakeFiles\glimpse.dir\src\comp.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\comp.cpp
 
 CMakeFiles/glimpse.dir/src/comp.cpp.i: cmake_force
@@ -112,21 +127,6 @@ CMakeFiles/glimpse.dir/src/comp.cpp.i: cmake_force
 CMakeFiles/glimpse.dir/src/comp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/comp.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\comp.cpp -o CMakeFiles\glimpse.dir\src\comp.cpp.s
-
-CMakeFiles/glimpse.dir/src/game.cpp.obj: CMakeFiles/glimpse.dir/flags.make
-CMakeFiles/glimpse.dir/src/game.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
-CMakeFiles/glimpse.dir/src/game.cpp.obj: src/game.cpp
-CMakeFiles/glimpse.dir/src/game.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/glimpse.dir/src/game.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/game.cpp.obj -MF CMakeFiles\glimpse.dir\src\game.cpp.obj.d -o CMakeFiles\glimpse.dir\src\game.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\game.cpp
-
-CMakeFiles/glimpse.dir/src/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/game.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\game.cpp > CMakeFiles\glimpse.dir\src\game.cpp.i
-
-CMakeFiles/glimpse.dir/src/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/game.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\game.cpp -o CMakeFiles\glimpse.dir\src\game.cpp.s
 
 CMakeFiles/glimpse.dir/src/gobj.cpp.obj: CMakeFiles/glimpse.dir/flags.make
 CMakeFiles/glimpse.dir/src/gobj.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
@@ -158,26 +158,11 @@ CMakeFiles/glimpse.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\main.cpp -o CMakeFiles\glimpse.dir\src\main.cpp.s
 
-CMakeFiles/glimpse.dir/src/physics.cpp.obj: CMakeFiles/glimpse.dir/flags.make
-CMakeFiles/glimpse.dir/src/physics.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
-CMakeFiles/glimpse.dir/src/physics.cpp.obj: src/physics.cpp
-CMakeFiles/glimpse.dir/src/physics.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/glimpse.dir/src/physics.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/physics.cpp.obj -MF CMakeFiles\glimpse.dir\src\physics.cpp.obj.d -o CMakeFiles\glimpse.dir\src\physics.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\physics.cpp
-
-CMakeFiles/glimpse.dir/src/physics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/physics.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\physics.cpp > CMakeFiles\glimpse.dir\src\physics.cpp.i
-
-CMakeFiles/glimpse.dir/src/physics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/physics.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\physics.cpp -o CMakeFiles\glimpse.dir\src\physics.cpp.s
-
 CMakeFiles/glimpse.dir/src/v2.cpp.obj: CMakeFiles/glimpse.dir/flags.make
 CMakeFiles/glimpse.dir/src/v2.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
 CMakeFiles/glimpse.dir/src/v2.cpp.obj: src/v2.cpp
 CMakeFiles/glimpse.dir/src/v2.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/glimpse.dir/src/v2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/glimpse.dir/src/v2.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/v2.cpp.obj -MF CMakeFiles\glimpse.dir\src\v2.cpp.obj.d -o CMakeFiles\glimpse.dir\src\v2.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\v2.cpp
 
 CMakeFiles/glimpse.dir/src/v2.cpp.i: cmake_force
@@ -188,28 +173,43 @@ CMakeFiles/glimpse.dir/src/v2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/v2.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\v2.cpp -o CMakeFiles\glimpse.dir\src\v2.cpp.s
 
+CMakeFiles/glimpse.dir/src/visual.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/visual.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/visual.cpp.obj: src/visual.cpp
+CMakeFiles/glimpse.dir/src/visual.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/glimpse.dir/src/visual.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/visual.cpp.obj -MF CMakeFiles\glimpse.dir\src\visual.cpp.obj.d -o CMakeFiles\glimpse.dir\src\visual.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\visual.cpp
+
+CMakeFiles/glimpse.dir/src/visual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/visual.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pixil\Desktop\GlimpseGithub\src\visual.cpp > CMakeFiles\glimpse.dir\src\visual.cpp.i
+
+CMakeFiles/glimpse.dir/src/visual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/visual.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pixil\Desktop\GlimpseGithub\src\visual.cpp -o CMakeFiles\glimpse.dir\src\visual.cpp.s
+
 # Object files for target glimpse
 glimpse_OBJECTS = \
-"CMakeFiles/glimpse.dir/src/Rect.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/app.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/coll.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/color.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/comp.cpp.obj" \
-"CMakeFiles/glimpse.dir/src/game.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/gobj.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/main.cpp.obj" \
-"CMakeFiles/glimpse.dir/src/physics.cpp.obj" \
-"CMakeFiles/glimpse.dir/src/v2.cpp.obj"
+"CMakeFiles/glimpse.dir/src/v2.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/visual.cpp.obj"
 
 # External object files for target glimpse
 glimpse_EXTERNAL_OBJECTS =
 
-glimpse.exe: CMakeFiles/glimpse.dir/src/Rect.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/app.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/coll.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/color.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/comp.cpp.obj
-glimpse.exe: CMakeFiles/glimpse.dir/src/game.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/gobj.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/main.cpp.obj
-glimpse.exe: CMakeFiles/glimpse.dir/src/physics.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/v2.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/visual.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/build.make
 glimpse.exe: src/lib/libSDL2.dll.a
 glimpse.exe: CMakeFiles/glimpse.dir/linklibs.rsp

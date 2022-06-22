@@ -4,23 +4,33 @@
 #include <string>
 #include <iostream>
 #include <vector>
-
 #include "comp.hpp"
+#include "visual.hpp"
+#include "SDL2/SDL.h"
 
 class gobj
 {
     public:
-        gobj(std::string tag);
+        gobj(char* tag);
+        void SetPosX(float x);
+        void SetPosY(float y);
+        void SetSizeX(float x);
+        void SetSizeY(float y);
+        void SetTag(char* _tag);
         float GetPosX();
         float GetPosY();
-        float GetPosZ();
-        void SetPos(float x, float y, float z);
+        float GetSizeX();
+        float GetSizeY();
+        char* GetTag();
         void AddColl();
-        void AddTexture();
-        std::string Tag;
+        void AddVisual(visual _visual);
+        bool hidden;
+        void Render(SDL_Renderer* renderer);
     private:
-        float _X, _Y, _Z;
-        std::vector<comp> Components;
+        char* tag;
+        float posX, posY;
+        float sizeX, sizeY;
+        visual* con_visual;
 };
 
 #endif

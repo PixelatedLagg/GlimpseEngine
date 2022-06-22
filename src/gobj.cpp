@@ -1,33 +1,63 @@
 #include <string>
-
+#include <iostream>
 #include "include/gobj.hpp"
 #include "include/coll.hpp"
+#include "include/visual.hpp"
 
-gobj::gobj(std::string tag)
+gobj::gobj(char* _tag)
 {
-    Tag = tag;
-    Components = {};
+    tag = _tag;
+    con_visual = nullptr;
     std::cout << "[CREATION] gameobject with tag: " << tag << std::endl;
+}
+void gobj::SetPosX(float x)
+{
+    posX = x;
+}
+void gobj::SetPosY(float y)
+{
+    posY = y;
+}
+void gobj::SetSizeX(float x)
+{
+    sizeX = x;
+}
+void gobj::SetSizeY(float y)
+{
+    sizeY = y;
+}
+void gobj::SetTag(char* _tag)
+{
+    tag = _tag;
 }
 float gobj::GetPosX()
 {
-    return _X;
+    return posX;
 }
 float gobj::GetPosY()
 {
-    return _Y;
+    return posY;
 }
-float gobj::GetPosZ()
+float gobj::GetSizeX()
 {
-    return _Z;
+    return sizeX;
 }
-void gobj::SetPos(float x, float y, float z)
+float gobj::GetSizeY()
 {
-    _X = x;
-    _Y = y;
-    _Z = z;
+    return sizeY;
 }
-void gobj::AddColl()
+char* gobj::GetTag()
 {
-    Components.push_back(coll(this));
+    return tag;
+}
+void gobj::AddVisual(visual _visual)
+{
+    con_visual = &_visual;
+}
+void gobj::Render(SDL_Renderer* renderer)
+{
+    if (con_visual != nullptr)
+    {
+        con_visual->Render(renderer);
+    }
 }

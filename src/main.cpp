@@ -1,14 +1,27 @@
-#include <iostream>
+#define SDL_MAIN_HANDLED
 
+#include <iostream>
 #include "include/gobj.hpp"
-#include "include/game.hpp"
+#include "include/app.hpp"
 
 using namespace std;
 
+class example : public application
+{
+   public:
+      void OnStart() override
+      {
+         gobj a("test");
+         a.AddVisual(rect())
+      }
+      void OnUpdate() override
+      {
+         cout << "aids@EU(DJMND#)\n";
+      }
+};
 int main()
 {
-   game g;
-   g.Start("aids!");
-   g.Pause(30000);
+   example e;
+   e.Start("aids!");
    return 0;
 }
