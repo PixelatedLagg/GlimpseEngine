@@ -1,14 +1,30 @@
 CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp \
- c:\mingw\include\c++\11.2.0\iostream \
+ c:\mingw\include\c++\11.2.0\string \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
  c:\mingw\include\c++\11.2.0\pstl\pstl_config.h \
- c:\mingw\include\c++\11.2.0\ostream c:\mingw\include\c++\11.2.0\ios \
- c:\mingw\include\c++\11.2.0\iosfwd \
  c:\mingw\include\c++\11.2.0\bits\stringfwd.h \
  c:\mingw\include\c++\11.2.0\bits\memoryfwd.h \
+ c:\mingw\include\c++\11.2.0\bits\char_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
+ c:\mingw\include\c++\11.2.0\bits\functexcept.h \
+ c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
+ c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
+ c:\mingw\include\c++\11.2.0\ext\type_traits.h \
+ c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
+ c:\mingw\include\c++\11.2.0\bits\move.h \
+ c:\mingw\include\c++\11.2.0\type_traits \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
+ c:\mingw\include\c++\11.2.0\bits\concept_check.h \
+ c:\mingw\include\c++\11.2.0\debug\assertions.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
+ c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
+ c:\mingw\include\c++\11.2.0\debug\debug.h \
+ c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
  c:\mingw\include\c++\11.2.0\bits\postypes.h \
  c:\mingw\include\c++\11.2.0\cwchar \
  c:\mingw\x86_64-w64-mingw32\include\wchar.h \
@@ -24,47 +40,32 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  c:\mingw\x86_64-w64-mingw32\include\_mingw_stat64.h \
  c:\mingw\x86_64-w64-mingw32\include\swprintf.inl \
  c:\mingw\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
- c:\mingw\include\c++\11.2.0\exception \
- c:\mingw\include\c++\11.2.0\bits\exception.h \
- c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
- c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
- c:\mingw\x86_64-w64-mingw32\include\stddef.h \
- c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
- c:\mingw\include\c++\11.2.0\typeinfo \
- c:\mingw\include\c++\11.2.0\bits\hash_bytes.h \
- c:\mingw\include\c++\11.2.0\new \
- c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
- c:\mingw\include\c++\11.2.0\bits\move.h \
- c:\mingw\include\c++\11.2.0\type_traits \
- c:\mingw\include\c++\11.2.0\bits\char_traits.h \
- c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
- c:\mingw\include\c++\11.2.0\bits\functexcept.h \
- c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
- c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
- c:\mingw\include\c++\11.2.0\bits\concept_check.h \
- c:\mingw\include\c++\11.2.0\debug\assertions.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
- c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
- c:\mingw\include\c++\11.2.0\debug\debug.h \
- c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
  c:\mingw\include\c++\11.2.0\cstdint \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
  c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h \
+ c:\mingw\include\c++\11.2.0\bits\allocator.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++allocator.h \
+ c:\mingw\include\c++\11.2.0\ext\new_allocator.h \
+ c:\mingw\include\c++\11.2.0\new \
+ c:\mingw\include\c++\11.2.0\bits\exception.h \
  c:\mingw\include\c++\11.2.0\bits\localefwd.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++locale.h \
  c:\mingw\include\c++\11.2.0\clocale \
  c:\mingw\x86_64-w64-mingw32\include\locale.h \
  c:\mingw\x86_64-w64-mingw32\include\stdio.h \
  c:\mingw\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
- c:\mingw\include\c++\11.2.0\cctype \
+ c:\mingw\include\c++\11.2.0\iosfwd c:\mingw\include\c++\11.2.0\cctype \
  c:\mingw\x86_64-w64-mingw32\include\ctype.h \
- c:\mingw\include\c++\11.2.0\bits\ios_base.h \
+ c:\mingw\include\c++\11.2.0\bits\ostream_insert.h \
+ c:\mingw\include\c++\11.2.0\bits\cxxabi_forced.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_function.h \
+ c:\mingw\include\c++\11.2.0\backward\binders.h \
+ c:\mingw\include\c++\11.2.0\bits\range_access.h \
+ c:\mingw\include\c++\11.2.0\initializer_list \
+ c:\mingw\include\c++\11.2.0\bits\basic_string.h \
  c:\mingw\include\c++\11.2.0\ext\atomicity.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\gthr.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\gthr-default.h \
@@ -86,23 +87,12 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  c:\mingw\x86_64-w64-mingw32\include\pthread_compat.h \
  c:\mingw\x86_64-w64-mingw32\include\pthread_unistd.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\atomic_word.h \
- c:\mingw\include\c++\11.2.0\bits\locale_classes.h \
- c:\mingw\include\c++\11.2.0\string \
- c:\mingw\include\c++\11.2.0\bits\allocator.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++allocator.h \
- c:\mingw\include\c++\11.2.0\ext\new_allocator.h \
- c:\mingw\include\c++\11.2.0\bits\ostream_insert.h \
- c:\mingw\include\c++\11.2.0\bits\cxxabi_forced.h \
- c:\mingw\include\c++\11.2.0\bits\stl_function.h \
- c:\mingw\include\c++\11.2.0\backward\binders.h \
- c:\mingw\include\c++\11.2.0\bits\range_access.h \
- c:\mingw\include\c++\11.2.0\initializer_list \
- c:\mingw\include\c++\11.2.0\bits\basic_string.h \
  c:\mingw\include\c++\11.2.0\ext\alloc_traits.h \
  c:\mingw\include\c++\11.2.0\bits\alloc_traits.h \
  c:\mingw\include\c++\11.2.0\bits\stl_construct.h \
  c:\mingw\include\c++\11.2.0\string_view \
  c:\mingw\include\c++\11.2.0\bits\functional_hash.h \
+ c:\mingw\include\c++\11.2.0\bits\hash_bytes.h \
  c:\mingw\include\c++\11.2.0\bits\string_view.tcc \
  c:\mingw\include\c++\11.2.0\ext\string_conversions.h \
  c:\mingw\include\c++\11.2.0\cstdlib \
@@ -115,6 +105,21 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  c:\mingw\include\c++\11.2.0\cstdio c:\mingw\include\c++\11.2.0\cerrno \
  c:\mingw\include\c++\11.2.0\bits\charconv.h \
  c:\mingw\include\c++\11.2.0\bits\basic_string.tcc \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/app.hpp \
+ c:\mingw\include\c++\11.2.0\vector \
+ c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
+ c:\mingw\include\c++\11.2.0\bits\vector.tcc \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp \
+ c:\mingw\include\c++\11.2.0\iostream c:\mingw\include\c++\11.2.0\ostream \
+ c:\mingw\include\c++\11.2.0\ios c:\mingw\include\c++\11.2.0\exception \
+ c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
+ c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
+ c:\mingw\include\c++\11.2.0\typeinfo \
+ c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
+ c:\mingw\include\c++\11.2.0\bits\ios_base.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_classes.h \
  c:\mingw\include\c++\11.2.0\bits\locale_classes.tcc \
  c:\mingw\include\c++\11.2.0\system_error \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h \
@@ -133,13 +138,6 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
  c:\mingw\include\c++\11.2.0\bits\istream.tcc \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/app.hpp \
- c:\mingw\include\c++\11.2.0\vector \
- c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
- c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
- c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
- c:\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/comp.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/comptype.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/visual.hpp \
@@ -288,4 +286,9 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_locale.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_misc.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
+ c:\mingw\include\c++\11.2.0\list \
+ c:\mingw\include\c++\11.2.0\bits\stl_list.h \
+ c:\mingw\include\c++\11.2.0\bits\allocated_ptr.h \
+ c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
+ c:\mingw\include\c++\11.2.0\bits\list.tcc \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL.h

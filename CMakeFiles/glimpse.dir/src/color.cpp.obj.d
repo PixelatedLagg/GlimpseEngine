@@ -1,31 +1,3 @@
 CMakeFiles/glimpse.dir/src/color.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
- c:\mingw\include\c++\11.2.0\tuple c:\mingw\include\c++\11.2.0\utility \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
- c:\mingw\include\c++\11.2.0\pstl\pstl_config.h \
- c:\mingw\include\c++\11.2.0\bits\stl_relops.h \
- c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
- c:\mingw\include\c++\11.2.0\bits\move.h \
- c:\mingw\include\c++\11.2.0\type_traits \
- c:\mingw\include\c++\11.2.0\initializer_list \
- c:\mingw\include\c++\11.2.0\array \
- c:\mingw\include\c++\11.2.0\bits\functexcept.h \
- c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
- c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
- c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
- c:\mingw\include\c++\11.2.0\bits\concept_check.h \
- c:\mingw\include\c++\11.2.0\debug\assertions.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
- c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
- c:\mingw\include\c++\11.2.0\debug\debug.h \
- c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
- c:\mingw\include\c++\11.2.0\bits\range_access.h \
- c:\mingw\include\c++\11.2.0\bits\uses_allocator.h \
- c:\mingw\include\c++\11.2.0\bits\invoke.h
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp

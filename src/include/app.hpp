@@ -4,13 +4,14 @@
 #include <vector>
 #include "gobj.hpp"
 #include "SDL2/SDL.h"
-#include <set>
+#include <list>
+#include <string>
 
 class application
 {
     public:
         application();
-        void Start(char* title);
+        void Start(std::string title);
         void Stop();
         void Pause(int ms);
         void FullScreenOn();
@@ -20,11 +21,12 @@ class application
         virtual void OnUpdate();
         void AddGobj(gobj obj);
         void RemoveGobj(gobj obj);
+        void RemoveGobj(std::string tag);
         void RemoveAllGobj();
         int GobjCount();
     private:
         void RenderGobj();
-        std::set<gobj> objects;
+        std::list<gobj> objects;
         bool running;
         SDL_Renderer* renderer;
         SDL_Window* window;

@@ -1,20 +1,18 @@
-#include <iostream>
-
+#include <string>
 #include "include/app.hpp"
 #include "include/SDL2/SDL.h"
-using namespace std;
 
 application::application()
 {
     BGColor = rgba(255, 0, 255, 255);
 }
-void application::Start(char* title)
+void application::Start(std::string title)
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
-    window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 512, 512, 0);
+    window = SDL_CreateWindow(const_cast<char*>(title.c_str()), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 512, 512, 0);
     if (!window)
     {
-        std::cout << "SDL error in creating window: " << SDL_GetError() << std::endl;
+        return;
     }
     renderer = nullptr;
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
@@ -61,11 +59,22 @@ void application::RenderGobj()
 }
 void application::AddGobj(gobj obj)
 {
-    objects.insert(obj);
+    objects.push_back(obj);
 }
 void application::RemoveGobj(gobj obj)
 {
-    objects.erase(obj);
+    objects.remove(obj);
+}
+void application::RemoveGobj(std::string tag)
+{
+    for (auto obj : objects)
+    {
+        if (obj.GetTag() == tag)
+        {
+            objects.remove(obj);
+            return;
+        }
+    }
 }
 void application::RemoveAllGobj()
 {

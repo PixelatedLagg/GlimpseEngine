@@ -15,9 +15,10 @@ class visual
         virtual int GetPosY();
         virtual int GetSizeX();
         virtual int GetSizeY();
+        void StartRender(SDL_Renderer* renderer);
         virtual void Render(SDL_Renderer* renderer);
 };
-class rect : private visual
+class rect : public visual
 {
     public:
         rect(int _posX, int _posY, int _sizeX, int _sizeY);
@@ -29,11 +30,11 @@ class rect : private visual
         int GetPosY();
         int GetSizeX();
         int GetSizeY();
-        void SetColor(int r, int g, int b, int a);
-        void Render(SDL_Renderer* renderer);
+        rect SetColor(int r, int g, int b, int a);
+        void Render(SDL_Renderer* renderer) override;
     private:
-        SDL_Rect* sdl;
-        rgba* color;
+        SDL_Rect sdl;
+        rgba color;
 };
 
 #endif

@@ -288,4 +288,10 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_misc.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/app.hpp \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp \
+ c:\mingw\include\c++\11.2.0\list \
+ c:\mingw\include\c++\11.2.0\bits\stl_list.h \
+ c:\mingw\include\c++\11.2.0\bits\allocated_ptr.h \
+ c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
+ c:\mingw\include\c++\11.2.0\bits\list.tcc \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp

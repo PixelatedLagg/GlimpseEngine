@@ -16,19 +16,16 @@ C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\g
 make[2]: Entering directory 'c:/Users/pixil/Desktop/GlimpseGithub'
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/glimpse.dir/src/app.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/app.cpp.obj -MF CMakeFiles\glimpse.dir\src\app.cpp.obj.d -o CMakeFiles\glimpse.dir\src\app.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp
- 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=2 "Building CXX object CMakeFiles/glimpse.dir/src/coll.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/coll.cpp.obj -MF CMakeFiles\glimpse.dir\src\coll.cpp.obj.d -o CMakeFiles\glimpse.dir\src\coll.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\coll.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/glimpse.dir/src/color.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/color.cpp.obj -MF CMakeFiles\glimpse.dir\src\color.cpp.obj.d -o CMakeFiles\glimpse.dir\src\color.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=4 "Building CXX object CMakeFiles/glimpse.dir/src/comp.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/comp.cpp.obj -MF CMakeFiles\glimpse.dir\src\comp.cpp.obj.d -o CMakeFiles\glimpse.dir\src\comp.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\comp.cpp
- 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=5 "Building CXX object CMakeFiles/glimpse.dir/src/gobj.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/gobj.cpp.obj -MF CMakeFiles\glimpse.dir\src\gobj.cpp.obj.d -o CMakeFiles\glimpse.dir\src\gobj.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\gobj.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=6 "Building CXX object CMakeFiles/glimpse.dir/src/main.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/main.cpp.obj -MF CMakeFiles\glimpse.dir\src\main.cpp.obj.d -o CMakeFiles\glimpse.dir\src\main.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\main.cpp
- 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=7 "Building CXX object CMakeFiles/glimpse.dir/src/v2.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/v2.cpp.obj -MF CMakeFiles\glimpse.dir\src\v2.cpp.obj.d -o CMakeFiles\glimpse.dir\src\v2.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\v2.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=8 "Building CXX object CMakeFiles/glimpse.dir/src/visual.cpp.obj"
