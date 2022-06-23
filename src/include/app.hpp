@@ -26,8 +26,10 @@ class application
         void RemoveGobj(std::string tag);
         void RemoveAllGobj();
         int GobjCount();
+        void PauseUpdate(int ms);
     private:
         void RenderGobj();
+        void UpdateCall();
         void FixedUpdateCall();
         std::map<std::string, gobj> objects;
         bool running;

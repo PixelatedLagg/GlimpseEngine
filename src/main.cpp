@@ -15,11 +15,6 @@ class example : public application
          rect* z = (new rect(200, 200, 100, 100))->SetColor(255, 255, 0, 255);
          a.con_visual = z;
          AddGobj(a);
-         a.IncPosX(100);
-         std::cout << a.GetPosX() << "\n";
-         Pause(2000);
-         a.IncPosX(100);
-         std::cout << a.GetPosX() << "\n";
       }
       void OnUpdate()
       {
@@ -27,7 +22,9 @@ class example : public application
       }
       void OnFixedUpdate()
       {
+         std::cout << "aids\n";
          a.IncPosX(10);
+         PauseUpdate(5000);
       }
 };
 int main()

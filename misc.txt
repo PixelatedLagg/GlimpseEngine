@@ -1,1 +1,13 @@
-cmake . -G "MinGW Makefiles"
+Thread structure:
+
+   /----- Glimpse Engine -----\
+   |            |             |
+  Main      OnUpdate     OnFixedUpdate
+   |            |             |
+   |       PauseUpdate() PauseUpdate()
+   |            |             |
+   \------------|-------------/
+                |
+              Pause()
+
+Building cmake without current cmake dir:       cmake . -G "MinGW Makefiles"

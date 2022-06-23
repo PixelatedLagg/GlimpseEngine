@@ -9,6 +9,13 @@ application::application()
     BGColor = rgba(255, 0, 255, 255);
     FixedUpdateInterval = 1000;
 }
+void application::UpdateCall()
+{
+    while (running)
+    {
+        OnUpdate();
+    }
+}
 void application::FixedUpdateCall()
 {
     while (running)
@@ -29,7 +36,8 @@ void application::Start(std::string title)
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     SDL_SetRenderDrawColor(renderer, BGColor.r, BGColor.g, BGColor.b, BGColor.a);
     OnStart();
-    std::thread thread{};
+    std::thread fixedUpdate(&application::UpdateCall, this);
+    std::thread update(&application::FixedUpdateCall, this);
     running = true;
     while(running)
     {
@@ -42,9 +50,9 @@ void application::Start(std::string title)
             }
         }
         RenderGobj();
-        OnUpdate();
     }
-    thread.join();
+    update.join();
+    fixedUpdate.join();
     SDL_DestroyWindow(window);
     SDL_Quit();
 }
@@ -92,4 +100,8 @@ void application::RemoveAllGobj()
 int application::GobjCount()
 {
     return objects.size();
+}
+void application::PauseUpdate(int ms)
+{
+    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
 }
