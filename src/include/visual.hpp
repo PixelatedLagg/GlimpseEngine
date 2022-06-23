@@ -30,7 +30,7 @@ class rect : public visual
         int GetPosY();
         int GetSizeX();
         int GetSizeY();
-        rect SetColor(int r, int g, int b, int a);
+        rect* SetColor(int r, int g, int b, int a);
         void Render(SDL_Renderer* renderer) override;
     private:
         SDL_Rect sdl;

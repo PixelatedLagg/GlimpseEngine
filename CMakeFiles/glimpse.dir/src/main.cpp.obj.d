@@ -289,9 +289,16 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/app.hpp \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/gobj.hpp \
- c:\mingw\include\c++\11.2.0\list \
- c:\mingw\include\c++\11.2.0\bits\stl_list.h \
- c:\mingw\include\c++\11.2.0\bits\allocated_ptr.h \
+ c:\mingw\include\c++\11.2.0\map \
+ c:\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
- c:\mingw\include\c++\11.2.0\bits\list.tcc \
+ c:\mingw\include\c++\11.2.0\bits\node_handle.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_map.h \
+ c:\mingw\include\c++\11.2.0\tuple c:\mingw\include\c++\11.2.0\utility \
+ c:\mingw\include\c++\11.2.0\bits\stl_relops.h \
+ c:\mingw\include\c++\11.2.0\array \
+ c:\mingw\include\c++\11.2.0\bits\uses_allocator.h \
+ c:\mingw\include\c++\11.2.0\bits\invoke.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_multimap.h \
+ c:\mingw\include\c++\11.2.0\bits\erase_if.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp

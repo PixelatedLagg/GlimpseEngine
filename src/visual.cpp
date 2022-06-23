@@ -9,11 +9,11 @@ void visual::StartRender(SDL_Renderer* renderer)
 }
 void visual::Render(SDL_Renderer* renderer) 
 {
-    std::cout << "aids!";
+
 }
 void visual::SetPosX(int x) 
 {
-    
+    cout << "A\n";
 }
 void visual::SetPosY(int y) 
 {
@@ -53,57 +53,47 @@ rect::rect(int _posX, int _posY, int _sizeX, int _sizeY)
 }
 void rect::SetPosX(int x) 
 {
-    visual::SetPosX(x);
     sdl.x = x;
 }
 void rect::SetPosY(int y) 
 {
-    visual::SetPosY(y);
     sdl.y = y;
 }
 void rect::SetSizeX(int x) 
 {
-    visual::SetSizeX(x);
     sdl.w = x;
 }
 void rect::SetSizeY(int y)
 {
-    visual::SetSizeY(y);
     sdl.h = y;
 }
 int rect::GetPosX()
 {
-    return visual::GetPosX();
+    return sdl.x;
 }
 int rect::GetPosY()
 {
-    return visual::GetPosY();
+    return sdl.y;
 }
 int rect::GetSizeX()
 {
-    return visual::GetSizeX();
+    return sdl.w;
 }
 int rect::GetSizeY()
 {
-    return visual::GetSizeY();
+    return sdl.h;
 }
-rect rect::SetColor(int r, int g, int b, int a)
+rect* rect::SetColor(int r, int g, int b, int a)
 {
     color.r = r;
     color.g = g;
     color.b = b;
     color.a = a;
-    return *this;
+    return this;
 }
 void rect::Render(SDL_Renderer* renderer)
 {
-    std::cout << "0!";
     SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
-    std::cout << "1!";
     SDL_RenderFillRect(renderer, &sdl);
-    std::cout << "2!";
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-    std::cout << "3!";
     SDL_RenderPresent(renderer);
-    std::cout << "4!";
 }

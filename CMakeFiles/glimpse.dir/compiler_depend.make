@@ -292,12 +292,30 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: src/app.cpp \
   src/include/SDL2/SDL_locale.h \
   src/include/SDL2/SDL_misc.h \
   src/include/color.hpp \
-  C:/MinGW/include/c++/11.2.0/list \
-  C:/MinGW/include/c++/11.2.0/bits/stl_list.h \
-  C:/MinGW/include/c++/11.2.0/bits/allocated_ptr.h \
+  C:/MinGW/include/c++/11.2.0/map \
+  C:/MinGW/include/c++/11.2.0/bits/stl_tree.h \
   C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h \
-  C:/MinGW/include/c++/11.2.0/bits/list.tcc \
-  src/include/SDL2/SDL.h
+  C:/MinGW/include/c++/11.2.0/bits/node_handle.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_map.h \
+  C:/MinGW/include/c++/11.2.0/tuple \
+  C:/MinGW/include/c++/11.2.0/utility \
+  C:/MinGW/include/c++/11.2.0/bits/stl_relops.h \
+  C:/MinGW/include/c++/11.2.0/array \
+  C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h \
+  C:/MinGW/include/c++/11.2.0/bits/invoke.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_multimap.h \
+  C:/MinGW/include/c++/11.2.0/bits/erase_if.h \
+  src/include/SDL2/SDL.h \
+  C:/MinGW/include/c++/11.2.0/thread \
+  C:/MinGW/include/c++/11.2.0/bits/std_thread.h \
+  C:/MinGW/include/c++/11.2.0/bits/refwrap.h \
+  C:/MinGW/include/c++/11.2.0/bits/unique_ptr.h \
+  C:/MinGW/include/c++/11.2.0/bits/this_thread_sleep.h \
+  C:/MinGW/include/c++/11.2.0/chrono \
+  C:/MinGW/include/c++/11.2.0/ratio \
+  C:/MinGW/include/c++/11.2.0/limits \
+  C:/MinGW/include/c++/11.2.0/ctime \
+  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
 
 CMakeFiles/glimpse.dir/src/coll.cpp.obj: src/coll.cpp
 
@@ -896,11 +914,19 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj: src/main.cpp \
   src/include/color.hpp \
   src/include/app.hpp \
   src/include/gobj.hpp \
-  C:/MinGW/include/c++/11.2.0/list \
-  C:/MinGW/include/c++/11.2.0/bits/stl_list.h \
-  C:/MinGW/include/c++/11.2.0/bits/allocated_ptr.h \
+  C:/MinGW/include/c++/11.2.0/map \
+  C:/MinGW/include/c++/11.2.0/bits/stl_tree.h \
   C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h \
-  C:/MinGW/include/c++/11.2.0/bits/list.tcc \
+  C:/MinGW/include/c++/11.2.0/bits/node_handle.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_map.h \
+  C:/MinGW/include/c++/11.2.0/tuple \
+  C:/MinGW/include/c++/11.2.0/utility \
+  C:/MinGW/include/c++/11.2.0/bits/stl_relops.h \
+  C:/MinGW/include/c++/11.2.0/array \
+  C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h \
+  C:/MinGW/include/c++/11.2.0/bits/invoke.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_multimap.h \
+  C:/MinGW/include/c++/11.2.0/bits/erase_if.h \
   src/include/color.hpp
 
 CMakeFiles/glimpse.dir/src/v2.cpp.obj: src/v2.cpp \
@@ -1220,6 +1246,8 @@ src/app.cpp:
 
 C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h:
 
+C:/MinGW/include/c++/11.2.0/bits/std_thread.h:
+
 src/include/SDL2/SDL_assert.h:
 
 C:/MinGW/include/c++/11.2.0/string:
@@ -1249,6 +1277,8 @@ C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 C:/MinGW/include/c++/11.2.0/bits/char_traits.h:
 
 C:/MinGW/include/c++/11.2.0/bits/memoryfwd.h:
+
+C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h:
 
 C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h:
 
@@ -1456,8 +1486,6 @@ C:/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
-C:/MinGW/include/c++/11.2.0/bits/stl_list.h:
-
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm3dnow.h:
 
 C:/MinGW/include/c++/11.2.0/ext/alloc_traits.h:
@@ -1572,6 +1600,8 @@ C:/MinGW/include/c++/11.2.0/cwctype:
 
 C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
+C:/MinGW/include/c++/11.2.0/chrono:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/keylockerintrin.h:
 
 C:/MinGW/include/c++/11.2.0/bits/streambuf_iterator.h:
@@ -1591,8 +1621,6 @@ C:/MinGW/include/c++/11.2.0/bits/istream.tcc:
 src/include/SDL2/SDL_main.h:
 
 src/include/comp.hpp:
-
-C:/MinGW/include/c++/11.2.0/bits/allocated_ptr.h:
 
 src/include/visual.hpp:
 
@@ -1636,8 +1664,6 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/ia32intrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/bmiintrin.h:
 
-C:/MinGW/include/c++/11.2.0/list:
-
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h:
 
 src/include/SDL2/SDL_misc.h:
@@ -1659,6 +1685,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlbwintrin.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/tmmintrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h:
+
+C:/MinGW/include/c++/11.2.0/tuple:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h:
 
@@ -1726,6 +1754,8 @@ src/include/SDL2/SDL_gamecontroller.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h:
 
+C:/MinGW/include/c++/11.2.0/bits/stl_map.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2vlintrin.h:
@@ -1784,9 +1814,41 @@ src/include/SDL2/SDL_locale.h:
 
 src/include/color.hpp:
 
+C:/MinGW/include/c++/11.2.0/map:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_tree.h:
+
 C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h:
 
-C:/MinGW/include/c++/11.2.0/bits/list.tcc:
+C:/MinGW/include/c++/11.2.0/bits/node_handle.h:
+
+C:/MinGW/include/c++/11.2.0/utility:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_relops.h:
+
+C:/MinGW/include/c++/11.2.0/array:
+
+C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h:
+
+C:/MinGW/include/c++/11.2.0/bits/invoke.h:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_multimap.h:
+
+C:/MinGW/include/c++/11.2.0/bits/erase_if.h:
+
+C:/MinGW/include/c++/11.2.0/thread:
+
+C:/MinGW/include/c++/11.2.0/bits/refwrap.h:
+
+C:/MinGW/include/c++/11.2.0/bits/unique_ptr.h:
+
+C:/MinGW/include/c++/11.2.0/bits/this_thread_sleep.h:
+
+C:/MinGW/include/c++/11.2.0/ratio:
+
+C:/MinGW/include/c++/11.2.0/limits:
+
+C:/MinGW/include/c++/11.2.0/ctime:
 
 src/coll.cpp:
 

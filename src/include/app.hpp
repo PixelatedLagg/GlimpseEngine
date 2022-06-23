@@ -4,8 +4,8 @@
 #include <vector>
 #include "gobj.hpp"
 #include "SDL2/SDL.h"
-#include <list>
 #include <string>
+#include <map>
 
 class application
 {
@@ -16,17 +16,20 @@ class application
         void Pause(int ms);
         void FullScreenOn();
         rgba BGColor;
+        int FixedUpdateInterval;
     protected:
         virtual void OnStart();
         virtual void OnUpdate();
+        virtual void OnFixedUpdate();
         void AddGobj(gobj obj);
-        void RemoveGobj(gobj obj);
+        gobj GetGobj(std::string tag);
         void RemoveGobj(std::string tag);
         void RemoveAllGobj();
         int GobjCount();
     private:
         void RenderGobj();
-        std::list<gobj> objects;
+        void FixedUpdateCall();
+        std::map<std::string, gobj> objects;
         bool running;
         SDL_Renderer* renderer;
         SDL_Window* window;

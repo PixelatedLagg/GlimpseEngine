@@ -286,9 +286,24 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj: \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_locale.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL_misc.h \
  C:\Users\pixil\Desktop\GlimpseGithub\src\include/color.hpp \
- c:\mingw\include\c++\11.2.0\list \
- c:\mingw\include\c++\11.2.0\bits\stl_list.h \
- c:\mingw\include\c++\11.2.0\bits\allocated_ptr.h \
+ c:\mingw\include\c++\11.2.0\map \
+ c:\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
- c:\mingw\include\c++\11.2.0\bits\list.tcc \
- C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL.h
+ c:\mingw\include\c++\11.2.0\bits\node_handle.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_map.h \
+ c:\mingw\include\c++\11.2.0\tuple c:\mingw\include\c++\11.2.0\utility \
+ c:\mingw\include\c++\11.2.0\bits\stl_relops.h \
+ c:\mingw\include\c++\11.2.0\array \
+ c:\mingw\include\c++\11.2.0\bits\uses_allocator.h \
+ c:\mingw\include\c++\11.2.0\bits\invoke.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_multimap.h \
+ c:\mingw\include\c++\11.2.0\bits\erase_if.h \
+ C:\Users\pixil\Desktop\GlimpseGithub\src\include/SDL2/SDL.h \
+ c:\mingw\include\c++\11.2.0\thread \
+ c:\mingw\include\c++\11.2.0\bits\std_thread.h \
+ c:\mingw\include\c++\11.2.0\bits\refwrap.h \
+ c:\mingw\include\c++\11.2.0\bits\unique_ptr.h \
+ c:\mingw\include\c++\11.2.0\bits\this_thread_sleep.h \
+ c:\mingw\include\c++\11.2.0\chrono c:\mingw\include\c++\11.2.0\ratio \
+ c:\mingw\include\c++\11.2.0\limits c:\mingw\include\c++\11.2.0\ctime \
+ c:\mingw\include\c++\11.2.0\bits\parse_numbers.h

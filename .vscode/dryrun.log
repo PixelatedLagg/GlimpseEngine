@@ -35,6 +35,7 @@ C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFil
 make[2]: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target glimpse"
 make[1]: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
+ 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_start C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles 0
 make: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
  

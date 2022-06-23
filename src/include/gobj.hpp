@@ -12,26 +12,29 @@ class gobj
 {
     public:
         gobj(std::string _tag);
-        void SetPosX(float x);
-        void SetPosY(float y);
-        void SetSizeX(float x);
-        void SetSizeY(float y);
+        void SetPosX(int x);
+        void SetPosY(int y);
+        void SetSizeX(int x);
+        void SetSizeY(int y);
+        void IncPosX(int x);
+        void IncPosY(int y);
+        void IncSizeX(int x);
+        void IncSizeY(int y);
         void SetTag(std::string _tag);
-        float GetPosX();
-        float GetPosY();
-        float GetSizeX();
-        float GetSizeY();
+        int GetPosX();
+        int GetPosY();
+        int GetSizeX();
+        int GetSizeY();
         std::string GetTag();
         void AddColl();
-        void AddVisual(visual _visual);
         bool hidden;
         void Render(SDL_Renderer* renderer);
         bool operator ==(const gobj obj);
+        visual* con_visual;
     private:
         std::string tag;
-        float posX, posY;
-        float sizeX, sizeY;
-        visual con_visual;
+        int posX, posY;
+        int sizeX, sizeY;
 };
 
 #endif

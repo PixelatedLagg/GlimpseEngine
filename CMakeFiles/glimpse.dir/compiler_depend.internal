@@ -293,12 +293,30 @@ CMakeFiles/glimpse.dir/src/app.cpp.obj
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/SDL2/SDL_locale.h
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/SDL2/SDL_misc.h
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/color.hpp
- C:/MinGW/include/c++/11.2.0/list
- C:/MinGW/include/c++/11.2.0/bits/stl_list.h
- C:/MinGW/include/c++/11.2.0/bits/allocated_ptr.h
+ C:/MinGW/include/c++/11.2.0/map
+ C:/MinGW/include/c++/11.2.0/bits/stl_tree.h
  C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h
- C:/MinGW/include/c++/11.2.0/bits/list.tcc
+ C:/MinGW/include/c++/11.2.0/bits/node_handle.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_map.h
+ C:/MinGW/include/c++/11.2.0/tuple
+ C:/MinGW/include/c++/11.2.0/utility
+ C:/MinGW/include/c++/11.2.0/bits/stl_relops.h
+ C:/MinGW/include/c++/11.2.0/array
+ C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h
+ C:/MinGW/include/c++/11.2.0/bits/invoke.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_multimap.h
+ C:/MinGW/include/c++/11.2.0/bits/erase_if.h
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/SDL2/SDL.h
+ C:/MinGW/include/c++/11.2.0/thread
+ C:/MinGW/include/c++/11.2.0/bits/std_thread.h
+ C:/MinGW/include/c++/11.2.0/bits/refwrap.h
+ C:/MinGW/include/c++/11.2.0/bits/unique_ptr.h
+ C:/MinGW/include/c++/11.2.0/bits/this_thread_sleep.h
+ C:/MinGW/include/c++/11.2.0/chrono
+ C:/MinGW/include/c++/11.2.0/ratio
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/ctime
+ C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
 
 CMakeFiles/glimpse.dir/src/coll.cpp.obj
  C:/Users/pixil/Desktop/GlimpseGithub/src/coll.cpp
@@ -902,11 +920,19 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/color.hpp
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/app.hpp
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/gobj.hpp
- C:/MinGW/include/c++/11.2.0/list
- C:/MinGW/include/c++/11.2.0/bits/stl_list.h
- C:/MinGW/include/c++/11.2.0/bits/allocated_ptr.h
+ C:/MinGW/include/c++/11.2.0/map
+ C:/MinGW/include/c++/11.2.0/bits/stl_tree.h
  C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h
- C:/MinGW/include/c++/11.2.0/bits/list.tcc
+ C:/MinGW/include/c++/11.2.0/bits/node_handle.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_map.h
+ C:/MinGW/include/c++/11.2.0/tuple
+ C:/MinGW/include/c++/11.2.0/utility
+ C:/MinGW/include/c++/11.2.0/bits/stl_relops.h
+ C:/MinGW/include/c++/11.2.0/array
+ C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h
+ C:/MinGW/include/c++/11.2.0/bits/invoke.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_multimap.h
+ C:/MinGW/include/c++/11.2.0/bits/erase_if.h
  C:/Users/pixil/Desktop/GlimpseGithub/src/include/color.hpp
 
 CMakeFiles/glimpse.dir/src/v2.cpp.obj

@@ -1,10 +1,21 @@
 #include <string>
 #include "include/app.hpp"
 #include "include/SDL2/SDL.h"
+#include <thread>
+#include <chrono>
 
 application::application()
 {
     BGColor = rgba(255, 0, 255, 255);
+    FixedUpdateInterval = 1000;
+}
+void application::FixedUpdateCall()
+{
+    while (running)
+    {
+        std::this_thread::sleep_for(std::chrono::milliseconds(FixedUpdateInterval));
+        OnFixedUpdate();
+    }
 }
 void application::Start(std::string title)
 {
@@ -16,7 +27,9 @@ void application::Start(std::string title)
     }
     renderer = nullptr;
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    SDL_SetRenderDrawColor(renderer, BGColor.r, BGColor.g, BGColor.b, BGColor.a);
     OnStart();
+    std::thread thread{};
     running = true;
     while(running)
     {
@@ -31,11 +44,13 @@ void application::Start(std::string title)
         RenderGobj();
         OnUpdate();
     }
+    thread.join();
     SDL_DestroyWindow(window);
     SDL_Quit();
 }
 void application::OnStart() { }
 void application::OnUpdate() { }
+void application::OnFixedUpdate() { }
 void application::Stop()
 {
     running = false;
@@ -54,27 +69,21 @@ void application::RenderGobj()
     SDL_RenderClear(renderer);
     for (auto obj : objects)
     {
-        obj.Render(renderer);
+        obj.second.Render(renderer);
     }
+    SDL_RenderPresent(renderer);
 }
 void application::AddGobj(gobj obj)
 {
-    objects.push_back(obj);
+    objects.insert(std::pair(obj.GetTag(), obj));
 }
-void application::RemoveGobj(gobj obj)
+gobj application::GetGobj(std::string tag)
 {
-    objects.remove(obj);
+    return objects.find(tag)->second;
 }
 void application::RemoveGobj(std::string tag)
 {
-    for (auto obj : objects)
-    {
-        if (obj.GetTag() == tag)
-        {
-            objects.remove(obj);
-            return;
-        }
-    }
+    objects.erase(tag);
 }
 void application::RemoveAllGobj()
 {

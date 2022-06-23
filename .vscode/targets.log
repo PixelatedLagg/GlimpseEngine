@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Wed Jun 22 03:06:01 2022
+# Make data base, printed on Wed Jun 22 16:25:27 2022
 
 # Variables
 
@@ -34,7 +33,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15616_AINXCOWMAQQAXISX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16548_YDALUPBGVHRACJUR
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -48,7 +47,7 @@ VSCODE_LOG_STACK = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\10e6e876822fa2da15fb68e8a6f1fb9aa8d94ce2
+VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\f361c5b71d6676cfc6de97cdb1cc40b08bf7d994
 # environment
 LANG = C
 # default
@@ -92,7 +91,7 @@ CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\GlimpseGithub
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 15616
+VSCODE_PID = 16548
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 59)
@@ -102,7 +101,8 @@ CMAKE_SOURCE_DIR = C:\Users\pixil\Desktop\GlimpseGithub
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = { 
+"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 ONEDRIVECONSUMER = C:\Users\pixil\OneDrive
 # default
@@ -224,7 +224,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (key c:/Users/pixil/Desktop/GlimpseGithub, mtime 1655880786): 14 files, no impossibilities.
+# . (key c:/Users/pixil/Desktop/GlimpseGithub, mtime 1655917196): 14 files, no impossibilities.
 
 # 14 files, no impossibilities in 3 directories.
 
@@ -727,8 +727,7 @@ src/app.cpp.s:
 #  Modification time never checked.
 #  File has not been updated.
 
-.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend glimpse glimpse/fast src/app.obj src/app.cpp.obj src/app.i src/app.cpp.i src/app.s src/app.cpp.s src/coll.obj src/coll.cpp.obj src/coll.i src/coll.cpp.i src/coll.s src/coll.cpp.s src/color.obj src/color.cpp.obj src/color.i src/color.cpp.i src/color.s src/color.cpp.s src/comp.ob 
-j src/comp.cpp.obj src/comp.i src/comp.cpp.i src/comp.s src/comp.cpp.s src/gobj.obj src/gobj.cpp.obj src/gobj.i src/gobj.cpp.i src/gobj.s src/gobj.cpp.s src/main.obj src/main.cpp.obj src/main.i src/main.cpp.i src/main.s src/main.cpp.s src/v2.obj src/v2.cpp.obj src/v2.i src/v2.cpp.i src/v2.s src/v2.cpp.s src/visual.obj src/visual.cpp.obj src/visual.i src/visual.cpp.i src/visual.s src/visual.cpp.s help cmake_check_build_system
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend glimpse glimpse/fast src/app.obj src/app.cpp.obj src/app.i src/app.cpp.i src/app.s src/app.cpp.s src/coll.obj src/coll.cpp.obj src/coll.i src/coll.cpp.i src/coll.s src/coll.cpp.s src/color.obj src/color.cpp.obj src/color.i src/color.cpp.i src/color.s src/color.cpp.s src/comp.obj src/comp.cpp.obj src/comp.i src/comp.cpp.i src/comp.s src/comp.cpp.s src/gobj.obj src/gobj.cpp.obj src/gobj.i src/gobj.cpp.i src/gobj.s src/gobj.cpp.s src/main.obj src/main.cpp.obj src/main.i src/main.cpp.i src/main.s src/main.cpp.s src/v2.obj src/v2.cpp.obj src/v2.i src/v2.cpp.i src/v2.s src/v2.cpp.s src/visual.obj src/visual.cpp.obj src/visual.i src/visual.cpp.i src/visual.s src/visual.cpp.s help cmake_check_build_system
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -811,6 +810,6 @@ src/color.cpp.s:
 # strcache performance: lookups = 395 / hit rate = 76%
 # hash-table stats:
 # Load=93/8192=1%, Rehash=0, Collisions=1/395=0%
-# Finished Make data base on Wed Jun 22 03:06:01 2022
+# Finished Make data base on Wed Jun 22 16:25:27 2022
 
  
