@@ -10,13 +10,13 @@ C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\g
 make[2]: Entering directory 'c:/Users/pixil/Desktop/GlimpseGithub'
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" C:\Users\pixil\Desktop\GlimpseGithub C:\Users\pixil\Desktop\GlimpseGithub C:\Users\pixil\Desktop\GlimpseGithub C:\Users\pixil\Desktop\GlimpseGithub C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles\glimpse.dir\DependInfo.cmake --color=
 make[2]: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
- 
 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -s -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/build
  
 make[2]: Entering directory 'c:/Users/pixil/Desktop/GlimpseGithub'
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/glimpse.dir/src/app.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/app.cpp.obj -MF CMakeFiles\glimpse.dir\src\app.cpp.obj.d -o CMakeFiles\glimpse.dir\src\app.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\app.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=2 "Building CXX object CMakeFiles/glimpse.dir/src/coll.cpp.obj"
+ 
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/coll.cpp.obj -MF CMakeFiles\glimpse.dir\src\coll.cpp.obj.d -o CMakeFiles\glimpse.dir\src\coll.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\coll.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/glimpse.dir/src/color.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/color.cpp.obj -MF CMakeFiles\glimpse.dir\src\color.cpp.obj.d -o CMakeFiles\glimpse.dir\src\color.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\color.cpp
@@ -28,11 +28,13 @@ C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFil
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/main.cpp.obj -MF CMakeFiles\glimpse.dir\src\main.cpp.obj.d -o CMakeFiles\glimpse.dir\src\main.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\main.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=7 "Building CXX object CMakeFiles/glimpse.dir/src/v2.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/v2.cpp.obj -MF CMakeFiles\glimpse.dir\src\v2.cpp.obj.d -o CMakeFiles\glimpse.dir\src\v2.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\v2.cpp
+ 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=8 "Building CXX object CMakeFiles/glimpse.dir/src/visual.cpp.obj"
 C:\MinGW\bin\g++.exe  @CMakeFiles/glimpse.dir/includes_CXX.rsp  -MD -MT CMakeFiles/glimpse.dir/src/visual.cpp.obj -MF CMakeFiles\glimpse.dir\src\visual.cpp.obj.d -o CMakeFiles\glimpse.dir\src\visual.cpp.obj -c C:\Users\pixil\Desktop\GlimpseGithub\src\visual.cpp
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --green --bold --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=9 "Linking CXX executable glimpse.exe"
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\glimpse.dir\link.txt --verbose=
 make[2]: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
+ 
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_echo_color --switch= --progress-dir=C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target glimpse"
 make[1]: Leaving directory 'c:/Users/pixil/Desktop/GlimpseGithub'
  

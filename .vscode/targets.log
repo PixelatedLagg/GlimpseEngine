@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 22 16:25:27 2022
+# Make data base, printed on Sun Jul 10 20:45:15 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16548_YDALUPBGVHRACJUR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14820_JCPODOSFAMIGUEQP
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -42,12 +42,11 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = true
 # automatic
-%F = $(notdir $%)
+%F = $( 
+notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\f361c5b71d6676cfc6de97cdb1cc40b08bf7d994
+VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\3104db414c8fedcf6e4493f14da7df0b7413853a
 # environment
 LANG = C
 # default
@@ -66,8 +65,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\pixil\OneDrive
 # makefile
 CURDIR := c:/Users/pixil/Desktop/GlimpseGithub
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -89,9 +86,7 @@ CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\GlimpseGithub
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 16548
+VSCODE_PID = 14820
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 59)
@@ -101,8 +96,7 @@ CMAKE_SOURCE_DIR = C:\Users\pixil\Desktop\GlimpseGithub
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = { 
-"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 ONEDRIVECONSUMER = C:\Users\pixil\OneDrive
 # default
@@ -139,8 +133,6 @@ PROMPT = $P$G
 CHOCOLATEYLASTPATHUPDATE = 132855620428863839
 # environment
 LOGONSERVER = \\DESKTOP-84SO2KG
-# environment
-VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = pixil
 # environment
@@ -196,7 +188,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\pixil\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\4d2c30b9729253ba5a57497a15c49282-1.69.0-insider-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\4d2c30b9729253ba5a57497a15c49282-1.70.0-insider-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -214,7 +206,7 @@ PROCESSOR_REVISION = 0101
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=9/136=7%
+# Load=97/1024=9%, Rehash=0, Collisions=8/132=6%
 
 # Pattern-specific Variable Values
 
@@ -224,7 +216,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (key c:/Users/pixil/Desktop/GlimpseGithub, mtime 1655917196): 14 files, no impossibilities.
+# . (key c:/Users/pixil/Desktop/GlimpseGithub, mtime 1656009437): 14 files, no impossibilities.
 
 # 14 files, no impossibilities in 3 directories.
 
@@ -810,6 +802,6 @@ src/color.cpp.s:
 # strcache performance: lookups = 395 / hit rate = 76%
 # hash-table stats:
 # Load=93/8192=1%, Rehash=0, Collisions=1/395=0%
-# Finished Make data base on Wed Jun 22 16:25:27 2022
+# Finished Make data base on Sun Jul 10 20:45:15 2022
 
  

@@ -24,7 +24,6 @@ class example : public application
       {
          std::cout << "aids\n";
          a.IncPosX(10);
-         PauseUpdate(5000);
       }
 };
 int main()
