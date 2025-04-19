@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 10 20:45:15 2022
+# Make data base, printed on Sun Dec 11 14:42:42 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14820_JCPODOSFAMIGUEQP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_17368_BYEGEHIDZZILAVJF
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -43,10 +43,9 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # automatic
-%F = $( 
-notdir $%)
+%F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\3104db414c8fedcf6e4493f14da7df0b7413853a
+VSCODE_CODE_CACHE_PATH = C:\Users\pixil\AppData\Roaming\Code - Insiders\CachedData\f076d553210e9ea65e7bccbfa2f7a786c10fcab2
 # environment
 LANG = C
 # default
@@ -63,8 +62,9 @@ PROCESSOR_ARCHITEW6432 = AMD64
 MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\pixil\OneDrive
-# makefile
-CURDIR := c:/Users/pixil/Desktop/GlimpseGithub
+# makefil 
+e
+CURDIR := c:/Users/pixil/Desktop/Glimpse
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -82,15 +82,15 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
 # makefile (from 'Makefile', line 62)
-CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\GlimpseGithub
+CMAKE_BINARY_DIR = C:\Users\pixil\Desktop\Glimpse
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14820
+VSCODE_PID = 17368
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 59)
-CMAKE_SOURCE_DIR = C:\Users\pixil\Desktop\GlimpseGithub
+CMAKE_SOURCE_DIR = C:\Users\pixil\Desktop\Glimpse
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -120,7 +120,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\AppData\Local\Microsoft\WindowsApps;C:\Users\pixil\.dotnet\tools;C:\cygnus\cygwin-b20\H-i586-cygwin32\bin;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\pixil\AppData\Local\GitHubDesktop\bin;C:\Users\pixil\Desktop\nuget\nuget.exe;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;
+PATH = C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\MinGW\mingw32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\pixil\Desktop\DBGen\bin\Debug\net6.0\;C:\Users\pixil\AppData\Local\Microsoft\WindowsApps;C:\Users\pixil\.dotnet\tools;C:\cygnus\cygwin-b20\H-i586-cygwin32\bin;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\pixil\AppData\Local\GitHubDesktop\bin;C:\Users\pixil\Desktop\nuget\nuget.exe;C:\Users\pixil\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;
 # environment
 COMPUTERNAME = DESKTOP-84SO2KG
 # default
@@ -155,6 +155,8 @@ GNUMAKEFLAGS :=
 OS = Windows_NT
 # makefile (from 'Makefile', line 56)
 EQUALS = =
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := default_target
 # makefile (from 'Makefile', line 53)
@@ -188,7 +190,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\pixil\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\4d2c30b9729253ba5a57497a15c49282-1.70.0-insider-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\4d2c30b9729253ba5a57497a15c49282-1.75.0-insider-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -206,7 +208,7 @@ PROCESSOR_REVISION = 0101
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=8/132=6%
+# Load=98/1024=10%, Rehash=0, Collisions=8/133=6%
 
 # Pattern-specific Variable Values
 
@@ -216,7 +218,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (key c:/Users/pixil/Desktop/GlimpseGithub, mtime 1656009437): 14 files, no impossibilities.
+# . (key c:/Users/pixil/Desktop/Glimpse, mtime 1669390081): 14 files, no impossibilities.
 
 # 14 files, no impossibilities in 3 directories.
 
@@ -236,6 +238,12 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # 6 implicit rules, 0 (0.0%) terminal.
 # Files
+
+src/math.i: src/math.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
 
 src/main.cpp.i:
 #  Phony target (prerequisite of .PHONY).
@@ -260,6 +268,12 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 
 src/main.s: src/main.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/math.s: src/math.cpp.s
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -291,12 +305,6 @@ src/color.s: src/color.cpp.s
 #  File does not exist.
 #  File has not been updated.
 
-src/v2.s: src/v2.cpp.s
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -309,29 +317,7 @@ src/gobj.s: src/gobj.cpp.s
 #  File does not exist.
 #  File has not been updated.
 
-src/app.i: src/app.cpp.i
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-src/visual.cpp.obj:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 304):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.obj
-
-src/v2.cpp.s:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 296):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.s
-
-src/visual.obj: src/visual.cpp.obj
+src/math.obj: src/math.cpp.obj
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -343,10 +329,18 @@ src/comp.obj: src/comp.cpp.obj
 #  File does not exist.
 #  File has not been updated.
 
+src/math.cpp.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 280):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/math.cpp.obj
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-21 15:37:36
+#  Last modified 2022-11-25 10:28:01
 #  File has been updated.
 #  Successfully updated.
 
@@ -359,27 +353,7 @@ rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 
-src/v2.cpp.obj:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 280):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.obj
-
-src/app.s: src/app.cpp.s
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 src/gobj.obj: src/gobj.cpp.obj
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-src/visual.s: src/visual.cpp.s
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -395,7 +369,7 @@ src/color.cpp.i:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 192):
+#  recipe to execute (from 'Makefile', line 168):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.i
 
 glimpse/fast:
@@ -420,6 +394,12 @@ cmake_force:
 #  File does not exist.
 #  File has not been updated.
 
+src/game.obj: src/game.cpp.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
 preinstall/fast:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -433,24 +413,8 @@ src/color.cpp.obj:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 184):
+#  recipe to execute (from 'Makefile', line 160):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.obj
-
-src/visual.cpp.i:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 312):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.i
-
-src/v2.cpp.i:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 288):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/v2.cpp.i
 
 edit_cache:
 #  Phony target (prerequisite of .PHONY).
@@ -461,12 +425,6 @@ edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
 	"C:\Program Files (x86)\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 
-src/visual.i: src/visual.cpp.i
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 src/gobj.cpp.obj:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -475,18 +433,12 @@ src/gobj.cpp.obj:
 #  recipe to execute (from 'Makefile', line 232):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/gobj.cpp.obj
 
-src/v2.i: src/v2.cpp.i
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 src/coll.cpp.i:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 168):
+#  recipe to execute (from 'Makefile', line 144):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.i
 
 glimpse: cmake_check_build_system
@@ -497,11 +449,27 @@ glimpse: cmake_check_build_system
 #  recipe to execute (from 'Makefile', line 123):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glimpse
 
+src/math.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 296):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/math.cpp.s
+
 rebuild_cache/fast: rebuild_cache
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+
+src/math.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 288):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/math.cpp.i
 
 # Not a target:
 .hpux_make_needs_suffix_list:
@@ -509,7 +477,21 @@ rebuild_cache/fast: rebuild_cache
 #  Modification time never checked.
 #  File has not been updated.
 
+src/game.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 216):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.i
+
 src/color.i: src/color.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/game.s: src/game.cpp.s
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -537,12 +519,6 @@ src/gobj.cpp.s:
 #  recipe to execute (from 'Makefile', line 248):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/gobj.cpp.s
 
-src/app.obj: src/app.cpp.obj
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
@@ -559,16 +535,24 @@ all: cmake_check_build_system
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 #  recipe to execute (from 'Makefile', line 89):
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles C:\Users\pixil\Desktop\GlimpseGithub\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pixil\Desktop\Glimpse\CMakeFiles C:\Users\pixil\Desktop\Glimpse\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pixil\Desktop\GlimpseGithub\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pixil\Desktop\Glimpse\CMakeFiles 0
+
+src/game.cpp.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 208):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.obj
 
 help:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 325):
+#  recipe to execute (from 'Makefile', line 301):
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
@@ -576,9 +560,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... glimpse
-	@echo ... src/app.obj
-	@echo ... src/app.i
-	@echo ... src/app.s
 	@echo ... src/coll.obj
 	@echo ... src/coll.i
 	@echo ... src/coll.s
@@ -588,18 +569,18 @@ help:
 	@echo ... src/comp.obj
 	@echo ... src/comp.i
 	@echo ... src/comp.s
+	@echo ... src/game.obj
+	@echo ... src/game.i
+	@echo ... src/game.s
 	@echo ... src/gobj.obj
 	@echo ... src/gobj.i
 	@echo ... src/gobj.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/v2.obj
-	@echo ... src/v2.i
-	@echo ... src/v2.s
-	@echo ... src/visual.obj
-	@echo ... src/visual.i
-	@echo ... src/visual.s
+	@echo ... src/math.obj
+	@echo ... src/math.i
+	@echo ... src/math.s
 
 src/comp.i: src/comp.cpp.i
 #  Phony target (prerequisite of .PHONY).
@@ -624,7 +605,7 @@ src/comp.cpp.s:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 224):
+#  recipe to execute (from 'Makefile', line 200):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/comp.cpp.s
 
 src/gobj.i: src/gobj.cpp.i
@@ -639,18 +620,18 @@ src/coll.obj: src/coll.cpp.obj
 #  File does not exist.
 #  File has not been updated.
 
-src/visual.cpp.s:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 320):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/visual.cpp.s
-
 .NOTPARALLEL:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+src/game.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 224):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/game.cpp.s
 
 src/coll.i: src/coll.cpp.i
 #  Phony target (prerequisite of .PHONY).
@@ -683,7 +664,7 @@ cmake_check_build_system:
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/14=7%
-#  recipe to execute (from 'Makefile', line 367):
+#  recipe to execute (from 'Makefile', line 340):
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 
 src/comp.cpp.i:
@@ -691,8 +672,14 @@ src/comp.cpp.i:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 216):
+#  recipe to execute (from 'Makefile', line 192):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/comp.cpp.i
+
+src/game.i: src/game.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
 
 src/coll.s: src/coll.cpp.s
 #  Phony target (prerequisite of .PHONY).
@@ -700,45 +687,15 @@ src/coll.s: src/coll.cpp.s
 #  File does not exist.
 #  File has not been updated.
 
-src/v2.obj: src/v2.cpp.obj
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-src/app.cpp.s:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 152):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.s
-
 .SUFFIXES: .hpux_make_needs_suffix_list
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend glimpse glimpse/fast src/app.obj src/app.cpp.obj src/app.i src/app.cpp.i src/app.s src/app.cpp.s src/coll.obj src/coll.cpp.obj src/coll.i src/coll.cpp.i src/coll.s src/coll.cpp.s src/color.obj src/color.cpp.obj src/color.i src/color.cpp.i src/color.s src/color.cpp.s src/comp.obj src/comp.cpp.obj src/comp.i src/comp.cpp.i src/comp.s src/comp.cpp.s src/gobj.obj src/gobj.cpp.obj src/gobj.i src/gobj.cpp.i src/gobj.s src/gobj.cpp.s src/main.obj src/main.cpp.obj src/main.i src/main.cpp.i src/main.s src/main.cpp.s src/v2.obj src/v2.cpp.obj src/v2.i src/v2.cpp.i src/v2.s src/v2.cpp.s src/visual.obj src/visual.cpp.obj src/visual.i src/visual.cpp.i src/visual.s src/visual.cpp.s help cmake_check_build_system
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend glimpse glimpse/fast src/coll.obj src/coll.cpp.obj src/coll.i src/coll.cpp.i src/coll.s src/coll.cpp.s src/color.obj src/color.cpp.obj src/color.i src/color.cpp.i src/color.s src/color.cpp.s src/comp.obj src/comp.cpp.obj src/comp.i src/comp.cpp.i src/comp.s src/comp.cpp.s src/game.obj src/game.cpp.obj src/game.i src/game.cpp.i src/game.s src/game.cpp.s src/gobj.obj src/gobj.cpp.obj src/gobj.i src/gobj.cpp.i src/gobj.s src/gobj.cpp.s src/main.obj src/main.cpp.obj src/main.i src/main.cpp.i src/main.s src/main.cpp.s src/math.obj src/math.cpp.obj src/math.i src/math.cpp.i src/math.s src/math.cpp.s help cmake_check_build_system
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-src/app.cpp.i:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 144):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.i
-
-src/app.cpp.obj:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 136):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/app.cpp.obj
 
 src/main.cpp.s:
 #  Phony target (prerequisite of .PHONY).
@@ -753,7 +710,7 @@ src/coll.cpp.s:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 176):
+#  recipe to execute (from 'Makefile', line 152):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.s
 
 src/comp.cpp.obj:
@@ -761,7 +718,7 @@ src/comp.cpp.obj:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 208):
+#  recipe to execute (from 'Makefile', line 184):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/comp.cpp.obj
 
 src/main.cpp.obj:
@@ -777,7 +734,7 @@ src/coll.cpp.obj:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 160):
+#  recipe to execute (from 'Makefile', line 136):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/coll.cpp.obj
 
 src/color.cpp.s:
@@ -785,23 +742,23 @@ src/color.cpp.s:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 200):
+#  recipe to execute (from 'Makefile', line 176):
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/color.cpp.s
 
 # files hash-table stats:
-# Load=71/1024=7%, Rehash=0, Collisions=2/269=1%
+# Load=65/1024=6%, Rehash=0, Collisions=2/245=1%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 93 / storage = 1127 B / avg = 12 B
-# current buf: size = 8174 B / used = 1127 B / count = 93 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 87 / storage = 1050 B / avg = 12 B
+# current buf: size = 8174 B / used = 1050 B / count = 87 / avg = 12 B
 
-# strcache performance: lookups = 395 / hit rate = 76%
+# strcache performance: lookups = 362 / hit rate = 75%
 # hash-table stats:
-# Load=93/8192=1%, Rehash=0, Collisions=1/395=0%
-# Finished Make data base on Sun Jul 10 20:45:15 2022
+# Load=87/8192=1%, Rehash=0, Collisions=1/362=0%
+# Finished Make data base on Sun Dec 11 14:42:42 2022
 
  

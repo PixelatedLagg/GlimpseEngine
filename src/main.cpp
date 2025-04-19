@@ -1,36 +1,56 @@
 #define SDL_MAIN_HANDLED
 
 #include <iostream>
-#include "include/gobj.hpp"
-#include "include/app.hpp"
-#include "include/color.hpp"
+#include "include/game.hpp"
+#include "include/event.hpp"
+#include "include/line.hpp"
 
-gobj a("test");
-
-class example : public application
+int offset = 1;
+class hooks : public Event
 {
-   public:
-      void OnStart()
-      {
-         rect* z = (new rect(200, 200, 100, 100))->SetColor(255, 255, 0, 255);
-         a.con_visual = z;
-         AddGobj(a);
-      }
-      void OnUpdate()
-      {
+    private:
+        circle c;
+        line b1;
+        line b2;
+        line b3;
+        float vel;
 
-      }
-      void OnFixedUpdate()
-      {
-         std::cout << "aids\n";
-         a.IncPosX(10);
-      }
+    public:
+        hooks() :
+        c({400, 400}, 30),
+        b1(100, 100, 100, 500), 
+        b2(100, 500, 500, 500),
+        b3(500, 500, 500, 100) {} //intialize stuff
+
+        void Start() override
+        {
+            vel = 0;
+            Game::AddObj(&c);
+            Game::AddObj(&b1);
+            Game::AddObj(&b2);
+            Game::AddObj(&b3);
+        }
+        void Update() override
+        {
+            return;
+        }
+        void FixedUpdate() override
+        {
+            vel += 1;
+            c.UpdateCenter({c._center.x, (int)(c._center.y + vel)});
+            std::cout << c._radius << "<-RAD" << std::endl;
+            std::cout << c.l_radius << "<-LRAD" << std::endl;
+            Game::CheckAllCollisions();
+            /*if (c.Colliding(&c2))
+            {
+                offset = -1;
+            }*/
+        }
 };
+
 int main()
 {
-   example e;
-   e.BGColor = rgba(255, 0, 255, 255);
-   e.FixedUpdateInterval = 1000;
-   e.Start("Testing Glimpse Engine");
-   return 0;
+    Game::event = new hooks();
+    Game::Start();
+    return 0;
 }
