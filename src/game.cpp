@@ -14,7 +14,7 @@ SDL_Renderer* Game::Renderer = nullptr;
 std::string Game::Title = "My Game";
 std::vector<circle*> Game::Circles;
 std::vector<line*> Game::Lines;
-int Game::FixedUpdateInterval = 16; // 16 ms ~ 60 FPS
+int Game::FixedUpdateInterval = 2; // 16 ms ~ 60 FPS
 Event* Game::event = new Event();
 int Game::globalTimestamp = 0;
 
@@ -35,6 +35,14 @@ void Game::FixedUpdateCall()
     }
 }
 
+int sizeDirection = 1;
+bool waitingToSpawn = false;
+bool increasingSize = false;
+int sizeDelay = 0;
+circle* spawn = nullptr;
+int startSpawnY = 0;
+
+
 void RenderGobj()
 {
     SDL_SetRenderDrawColor(Game::Renderer, 1, 1, 1, 1);
@@ -47,7 +55,11 @@ void RenderGobj()
     {
         line->Render();
     }
-
+    if ((SDL_GetMouseState(NULL, NULL) & SDL_BUTTON(1)) && waitingToSpawn)
+    {
+        spawn->Render();
+    }
+    
     SDL_RenderPresent(Game::Renderer);
 }
 
@@ -59,6 +71,39 @@ void Game::AddObj(line* obj)
 {
     Game::Lines.push_back(obj);
 }
+
+void handleMouseDown(SDL_MouseButtonEvent e)
+{
+    if (e.button == SDL_BUTTON_LEFT)
+    {
+        if (e.clicks == 2) //double click spawns circle!
+        {
+            sizeDirection = 1;
+            waitingToSpawn = true;
+            spawn = new circle({e.x, e.y}, 1);
+            sizeDelay = SDL_GetTicks();
+        }
+    }
+    if (e.button == SDL_BUTTON_RIGHT)
+    {
+        if (waitingToSpawn)
+        {
+            startSpawnY = e.y;
+            increasingSize = true;
+        }
+    }
+}
+
+void handleMouseUp(SDL_MouseButtonEvent e)
+{
+    if (e.button == SDL_BUTTON_LEFT && waitingToSpawn)
+    {
+        waitingToSpawn = false;
+        increasingSize = false;
+        Game::Circles.push_back(spawn);
+    }
+}
+
 
 void Game::Start()
 {
@@ -76,11 +121,38 @@ void Game::Start()
     std::thread fixedUpdate(Game::FixedUpdateCall);
     std::thread update(Game::UpdateCall);
     running = true;
-    while(running)
+    while (running)
     {
         SDL_Event _event;
+        Uint32 state = SDL_GetMouseState(NULL, NULL);
+        if (state & SDL_BUTTON(3))
+        {
+            if (increasingSize && SDL_GetTicks() > sizeDelay)
+            {
+                int y;
+                SDL_GetMouseState(NULL, &y);
+                if (startSpawnY >= y)
+                {
+                    sizeDirection = 1;
+                }
+                else
+                {
+                    sizeDirection = -1;
+                }
+                sizeDelay += 500 / std::max(std::abs(y - startSpawnY), 1);
+                spawn->UpdateRadius(spawn->_radius + sizeDirection);
+            }
+        }
         while (SDL_PollEvent(&_event))
         {
+            if (_event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                handleMouseDown(_event.button);
+            }
+            if (_event.type == SDL_MOUSEBUTTONUP)
+            {
+                handleMouseUp(_event.button);
+            }
             if (_event.type == SDL_QUIT)
             {
                 running = false;
@@ -91,6 +163,10 @@ void Game::Start()
     update.join();
     fixedUpdate.join();
     SDL_DestroyWindow(Game::Window);
+    for (circle* c : Game::Circles)
+    {
+        delete c;
+    }
     SDL_Quit();
 }
 

@@ -1,2 +1,2 @@
 # GlimpseEngine
-A 2D engine for games/physics simulations.
+A 2D engine for physics simulations.
