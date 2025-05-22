@@ -295,6 +295,7 @@ CMakeFiles/glimpse.dir/src/circle.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/include/event.hpp
  C:/Users/William/Desktop/Glimpse/src/include/game.hpp
  C:/Users/William/Desktop/Glimpse/src/include/line.hpp
+ C:/Users/William/Desktop/Glimpse/src/include/rect.hpp
  C:/Users/William/Desktop/Glimpse/src/include/util.hpp
 
 CMakeFiles/glimpse.dir/src/game.cpp.obj
@@ -627,6 +628,7 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/include/event.hpp
  C:/Users/William/Desktop/Glimpse/src/include/game.hpp
  C:/Users/William/Desktop/Glimpse/src/include/line.hpp
+ C:/Users/William/Desktop/Glimpse/src/include/rect.hpp
 
 CMakeFiles/glimpse.dir/src/line.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/line.cpp
@@ -905,6 +907,7 @@ CMakeFiles/glimpse.dir/src/line.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/include/event.hpp
  C:/Users/William/Desktop/Glimpse/src/include/game.hpp
  C:/Users/William/Desktop/Glimpse/src/include/line.hpp
+ C:/Users/William/Desktop/Glimpse/src/include/rect.hpp
  C:/Users/William/Desktop/Glimpse/src/include/util.hpp
 
 CMakeFiles/glimpse.dir/src/main.cpp.obj
@@ -1226,6 +1229,7 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/include/event.hpp
  C:/Users/William/Desktop/Glimpse/src/include/game.hpp
  C:/Users/William/Desktop/Glimpse/src/include/line.hpp
+ C:/Users/William/Desktop/Glimpse/src/include/rect.hpp
 
 CMakeFiles/glimpse.dir/src/util.cpp.obj
  C:/Users/William/Desktop/Glimpse/src/util.cpp

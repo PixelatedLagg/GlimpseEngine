@@ -293,6 +293,7 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj: \
  C:\Users\William\Desktop\Glimpse\src\include/circle.hpp \
  C:\Users\William\Desktop\Glimpse\src\include/SDL2/SDL.h \
  C:\Users\William\Desktop\Glimpse\src\include/line.hpp \
+ C:\Users\William\Desktop\Glimpse\src\include/rect.hpp \
  C:\Users\William\Desktop\Glimpse\src\include/event.hpp \
  C:/msys64/ucrt64/include/c++/14.1.0/iostream \
  C:/msys64/ucrt64/include/c++/14.1.0/ostream \
@@ -324,4 +325,5 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/istream \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc \
- C:\Users\William\Desktop\Glimpse\src\include/line.hpp
+ C:\Users\William\Desktop\Glimpse\src\include/line.hpp \
+ C:\Users\William\Desktop\Glimpse\src\include/rect.hpp

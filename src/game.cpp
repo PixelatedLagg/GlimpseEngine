@@ -7,6 +7,7 @@
 #include "include/event.hpp"
 #include <iostream>
 #include "include/line.hpp"
+#include "include/rect.hpp"
 
 bool running;
 SDL_Window* Game::Window = nullptr;
@@ -55,6 +56,10 @@ void RenderGobj()
     {
         line->Render();
     }
+    for (auto rect : Game::Rects)
+    {
+        rect->Render();
+    }
     if ((SDL_GetMouseState(NULL, NULL) & SDL_BUTTON(1)) && waitingToSpawn)
     {
         spawn->Render();
@@ -71,7 +76,10 @@ void Game::AddObj(line* obj)
 {
     Game::Lines.push_back(obj);
 }
-
+void Game::AddObj(rect* obj)
+{
+    Game::Rects.push_back(obj);
+}
 void handleMouseDown(SDL_MouseButtonEvent e)
 {
     if (e.button == SDL_BUTTON_LEFT)

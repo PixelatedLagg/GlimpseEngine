@@ -308,5 +308,6 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj: \
  C:\Users\William\Desktop\Glimpse\src\include/SDL2/SDL_locale.h \
  C:\Users\William\Desktop\Glimpse\src\include/SDL2/SDL_misc.h \
  C:\Users\William\Desktop\Glimpse\src\include/line.hpp \
+ C:\Users\William\Desktop\Glimpse\src\include/rect.hpp \
  C:\Users\William\Desktop\Glimpse\src\include/event.hpp \
  C:\Users\William\Desktop\Glimpse\src\include/line.hpp

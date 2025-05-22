@@ -9,11 +9,11 @@ int offset = 1;
 class hooks : public Event
 {
     private:
-        circle c3;
+        rect c3;
 
     public:
         hooks() :
-        c3({100, 200}, 75)
+        c3({0, 50}, {61, 300}, {30, 250}, {10, 420})
         {} //intialize stuff
 
         void Start() override

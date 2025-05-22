@@ -294,6 +294,7 @@ CMakeFiles/glimpse.dir/src/circle.cpp.obj: src/circle.cpp \
   src/include/event.hpp \
   src/include/game.hpp \
   src/include/line.hpp \
+  src/include/rect.hpp \
   src/include/util.hpp
 
 CMakeFiles/glimpse.dir/src/game.cpp.obj: src/game.cpp \
@@ -624,7 +625,8 @@ CMakeFiles/glimpse.dir/src/game.cpp.obj: src/game.cpp \
   src/include/circle.hpp \
   src/include/event.hpp \
   src/include/game.hpp \
-  src/include/line.hpp
+  src/include/line.hpp \
+  src/include/rect.hpp
 
 CMakeFiles/glimpse.dir/src/line.cpp.obj: src/line.cpp \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -902,6 +904,7 @@ CMakeFiles/glimpse.dir/src/line.cpp.obj: src/line.cpp \
   src/include/event.hpp \
   src/include/game.hpp \
   src/include/line.hpp \
+  src/include/rect.hpp \
   src/include/util.hpp
 
 CMakeFiles/glimpse.dir/src/main.cpp.obj: src/main.cpp \
@@ -1221,7 +1224,8 @@ CMakeFiles/glimpse.dir/src/main.cpp.obj: src/main.cpp \
   src/include/circle.hpp \
   src/include/event.hpp \
   src/include/game.hpp \
-  src/include/line.hpp
+  src/include/line.hpp \
+  src/include/rect.hpp
 
 CMakeFiles/glimpse.dir/src/util.cpp.obj: src/util.cpp \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -2090,6 +2094,8 @@ src/include/SDL2/SDL_surface.h:
 src/include/SDL2/SDL_timer.h:
 
 src/include/event.hpp:
+
+src/include/rect.hpp:
 
 C:/msys64/ucrt64/include/_timeval.h:
 

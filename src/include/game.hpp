@@ -8,6 +8,7 @@
 #include "circle.hpp"
 #include "SDL2/SDL.h"
 #include "line.hpp"
+#include "rect.hpp"
 
 class Game
 {
@@ -17,11 +18,13 @@ class Game
         static int FixedUpdateInterval;
         static std::vector<circle*> Circles;
         static std::vector<line*> Lines;
+        static std::vector<rect*> Rects;
         static SDL_Renderer* Renderer;
         static SDL_Window* Window;
         static void Start();
         static void AddObj(circle* obj);
         static void AddObj(line* obj);
+        static void AddObj(rect* obj);
         static void CheckAllCollisions();
         static int globalTimestamp;
     private:
