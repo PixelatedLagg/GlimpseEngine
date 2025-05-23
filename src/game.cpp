@@ -15,6 +15,7 @@ SDL_Renderer* Game::Renderer = nullptr;
 std::string Game::Title = "My Game";
 std::vector<circle*> Game::Circles;
 std::vector<line*> Game::Lines;
+std::vector<rect*> Game::Rects;
 int Game::FixedUpdateInterval = 2; // 16 ms ~ 60 FPS
 Event* Game::event = new Event();
 int Game::globalTimestamp = 0;
@@ -46,17 +47,17 @@ int startSpawnY = 0;
 
 void RenderGobj()
 {
-    SDL_SetRenderDrawColor(Game::Renderer, 1, 1, 1, 1);
+    //SDL_SetRenderDrawColor(Game::Renderer, 1, 1, 1, 1);
     SDL_RenderClear(Game::Renderer);
-    for (auto circle : Game::Circles)
+    for (circle* circle : Game::Circles)
     {
         circle->Render();
     }
-    for (auto line : Game::Lines)
+    for (line* line : Game::Lines)
     {
         line->Render();
     }
-    for (auto rect : Game::Rects)
+    for (rect* rect : Game::Rects)
     {
         rect->Render();
     }

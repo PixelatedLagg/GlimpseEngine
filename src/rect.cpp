@@ -19,7 +19,9 @@ rect::rect(SDL_Point topleft, SDL_Point topright, SDL_Point bottomleft, SDL_Poin
 
 void rect::Render()
 {
+    SDL_SetRenderDrawColor(Game::Renderer, 100, 100, 100, 1);
     SDL_RenderDrawLines(Game::Renderer, _points, 4);
+    SDL_SetRenderDrawColor(Game::Renderer, 1, 1, 1, 1);
 }
 
 bool rect::Colliding(rect* other)

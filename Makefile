@@ -224,6 +224,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rect.obj: src/rect.cpp.obj
+.PHONY : src/rect.obj
+
+# target to build an object file
+src/rect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rect.cpp.obj
+.PHONY : src/rect.cpp.obj
+
+src/rect.i: src/rect.cpp.i
+.PHONY : src/rect.i
+
+# target to preprocess a source file
+src/rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rect.cpp.i
+.PHONY : src/rect.cpp.i
+
+src/rect.s: src/rect.cpp.s
+.PHONY : src/rect.s
+
+# target to generate assembly for a file
+src/rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rect.cpp.s
+.PHONY : src/rect.cpp.s
+
+src/rigidbody.obj: src/rigidbody.cpp.obj
+.PHONY : src/rigidbody.obj
+
+# target to build an object file
+src/rigidbody.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj
+.PHONY : src/rigidbody.cpp.obj
+
+src/rigidbody.i: src/rigidbody.cpp.i
+.PHONY : src/rigidbody.i
+
+# target to preprocess a source file
+src/rigidbody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rigidbody.cpp.i
+.PHONY : src/rigidbody.cpp.i
+
+src/rigidbody.s: src/rigidbody.cpp.s
+.PHONY : src/rigidbody.s
+
+# target to generate assembly for a file
+src/rigidbody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/rigidbody.cpp.s
+.PHONY : src/rigidbody.cpp.s
+
+src/tension.obj: src/tension.cpp.obj
+.PHONY : src/tension.obj
+
+# target to build an object file
+src/tension.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/tension.cpp.obj
+.PHONY : src/tension.cpp.obj
+
+src/tension.i: src/tension.cpp.i
+.PHONY : src/tension.i
+
+# target to preprocess a source file
+src/tension.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/tension.cpp.i
+.PHONY : src/tension.cpp.i
+
+src/tension.s: src/tension.cpp.s
+.PHONY : src/tension.s
+
+# target to generate assembly for a file
+src/tension.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glimpse.dir\build.make CMakeFiles/glimpse.dir/src/tension.cpp.s
+.PHONY : src/tension.cpp.s
+
 src/util.obj: src/util.cpp.obj
 .PHONY : src/util.obj
 
@@ -269,6 +341,15 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/rect.obj
+	@echo ... src/rect.i
+	@echo ... src/rect.s
+	@echo ... src/rigidbody.obj
+	@echo ... src/rigidbody.i
+	@echo ... src/rigidbody.s
+	@echo ... src/tension.obj
+	@echo ... src/tension.i
+	@echo ... src/tension.s
 	@echo ... src/util.obj
 	@echo ... src/util.i
 	@echo ... src/util.s

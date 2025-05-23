@@ -128,11 +128,56 @@ CMakeFiles/glimpse.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\William\Desktop\Glimpse\src\main.cpp -o CMakeFiles\glimpse.dir\src\main.cpp.s
 
+CMakeFiles/glimpse.dir/src/rect.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/rect.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/rect.cpp.obj: src/rect.cpp
+CMakeFiles/glimpse.dir/src/rect.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/glimpse.dir/src/rect.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/rect.cpp.obj -MF CMakeFiles\glimpse.dir\src\rect.cpp.obj.d -o CMakeFiles\glimpse.dir\src\rect.cpp.obj -c C:\Users\William\Desktop\Glimpse\src\rect.cpp
+
+CMakeFiles/glimpse.dir/src/rect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/rect.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\William\Desktop\Glimpse\src\rect.cpp > CMakeFiles\glimpse.dir\src\rect.cpp.i
+
+CMakeFiles/glimpse.dir/src/rect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/rect.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\William\Desktop\Glimpse\src\rect.cpp -o CMakeFiles\glimpse.dir\src\rect.cpp.s
+
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj: src/rigidbody.cpp
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj -MF CMakeFiles\glimpse.dir\src\rigidbody.cpp.obj.d -o CMakeFiles\glimpse.dir\src\rigidbody.cpp.obj -c C:\Users\William\Desktop\Glimpse\src\rigidbody.cpp
+
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/rigidbody.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\William\Desktop\Glimpse\src\rigidbody.cpp > CMakeFiles\glimpse.dir\src\rigidbody.cpp.i
+
+CMakeFiles/glimpse.dir/src/rigidbody.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/rigidbody.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\William\Desktop\Glimpse\src\rigidbody.cpp -o CMakeFiles\glimpse.dir\src\rigidbody.cpp.s
+
+CMakeFiles/glimpse.dir/src/tension.cpp.obj: CMakeFiles/glimpse.dir/flags.make
+CMakeFiles/glimpse.dir/src/tension.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
+CMakeFiles/glimpse.dir/src/tension.cpp.obj: src/tension.cpp
+CMakeFiles/glimpse.dir/src/tension.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/glimpse.dir/src/tension.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/tension.cpp.obj -MF CMakeFiles\glimpse.dir\src\tension.cpp.obj.d -o CMakeFiles\glimpse.dir\src\tension.cpp.obj -c C:\Users\William\Desktop\Glimpse\src\tension.cpp
+
+CMakeFiles/glimpse.dir/src/tension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glimpse.dir/src/tension.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\William\Desktop\Glimpse\src\tension.cpp > CMakeFiles\glimpse.dir\src\tension.cpp.i
+
+CMakeFiles/glimpse.dir/src/tension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glimpse.dir/src/tension.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\William\Desktop\Glimpse\src\tension.cpp -o CMakeFiles\glimpse.dir\src\tension.cpp.s
+
 CMakeFiles/glimpse.dir/src/util.cpp.obj: CMakeFiles/glimpse.dir/flags.make
 CMakeFiles/glimpse.dir/src/util.cpp.obj: CMakeFiles/glimpse.dir/includes_CXX.rsp
 CMakeFiles/glimpse.dir/src/util.cpp.obj: src/util.cpp
 CMakeFiles/glimpse.dir/src/util.cpp.obj: CMakeFiles/glimpse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/glimpse.dir/src/util.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/glimpse.dir/src/util.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glimpse.dir/src/util.cpp.obj -MF CMakeFiles\glimpse.dir\src\util.cpp.obj.d -o CMakeFiles\glimpse.dir\src\util.cpp.obj -c C:\Users\William\Desktop\Glimpse\src\util.cpp
 
 CMakeFiles/glimpse.dir/src/util.cpp.i: cmake_force
@@ -149,6 +194,9 @@ glimpse_OBJECTS = \
 "CMakeFiles/glimpse.dir/src/game.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/line.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/main.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/rect.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj" \
+"CMakeFiles/glimpse.dir/src/tension.cpp.obj" \
 "CMakeFiles/glimpse.dir/src/util.cpp.obj"
 
 # External object files for target glimpse
@@ -158,13 +206,16 @@ glimpse.exe: CMakeFiles/glimpse.dir/src/circle.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/game.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/line.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/main.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/rect.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/rigidbody.cpp.obj
+glimpse.exe: CMakeFiles/glimpse.dir/src/tension.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/src/util.cpp.obj
 glimpse.exe: CMakeFiles/glimpse.dir/build.make
 glimpse.exe: src/lib/libSDL2.dll.a
 glimpse.exe: CMakeFiles/glimpse.dir/linkLibs.rsp
 glimpse.exe: CMakeFiles/glimpse.dir/objects1.rsp
 glimpse.exe: CMakeFiles/glimpse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable glimpse.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\William\Desktop\Glimpse\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable glimpse.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimpse.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

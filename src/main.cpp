@@ -10,15 +10,16 @@ class hooks : public Event
 {
     private:
         rect c3;
-
+        circle r3;
     public:
         hooks() :
-        c3({0, 50}, {61, 300}, {30, 250}, {10, 420})
+        c3({0, 50}, {61, 300}, {30, 250}, {10, 420}), r3({100, 100}, 30)
         {} //intialize stuff
 
         void Start() override
         {
             Game::AddObj(&c3);
+            Game::AddObj(&r3);
         }
         void Update() override
         {
